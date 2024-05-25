@@ -34,5 +34,7 @@
       }
     }
   ],
-  "url": "https://github.com/Hydrair/mwangi-compendium"
+  "url": "https://github.com/Hydrair/mwangi-compendium",
+  "download": "https://github.com/Hydrair/mwangi-compendium/releases/download/Init/mwangi-compendium.zip",
+  "manifest": "https://github.com/Hydrair/mwangi-compendium/releases/download/Init/module.json"
 }
