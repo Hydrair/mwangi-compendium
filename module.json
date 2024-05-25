@@ -1,7 +1,7 @@
 {
   "id": "mwangi-compendium",
   "title": "Mwangi Compendium",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -35,6 +35,6 @@
     }
   ],
   "url": "https://github.com/Hydrair/mwangi-compendium",
-  "download": "https://github.com/Hydrair/mwangi-compendium/releases/download/Init/mwangi-compendium.zip",
-  "manifest": "https://github.com/Hydrair/mwangi-compendium/releases/download/Init/module.json"
+  "download": "https://github.com/Hydrair/mwangi-compendium/releases/latest/download/module.zip",
+  "manifest": "https://github.com/Hydrair/mwangi-compendium/releases/latest/download/module.json"
 }
