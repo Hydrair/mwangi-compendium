@@ -11,7 +11,7 @@
 2024/05/27-15:40:09.670 1a08 Manual compaction at level-1 from '!folders!njig42ME9WyQNUgF' @sd 72057594037927935 : 1 .. '!items!zAydvVZktMuf7ije' @ 0 : 0; willfffff stop at '!items!zAydvVZktMuf7ije' @ 9 : 1
 2024/05/27-15:40:09.670 1a08 Compacting 1@1 + 1@2 files
 2024/05/27-15:40:09.676 1a08 Generated table #19@1: 6 keys, 3308 bytes
-2024/05/27-15:40:09.676 1a08 Compacted 1@1 + 1@2 files => 3308 bytes
+2024/05/27-15:40:09.676 1a08 Compacted sda1@1 + 1@2 files => 3308 bytes
 2024/05/27-15:40:09.679 1a08 compacted to: files[ 0 0 1 0 0 0 0 ]
 2024/05/27-15:40:09.679 1a08 Delete type=2 #14
 2024/05/27-15:40:09.679 1a08 Delete type=2 #18
