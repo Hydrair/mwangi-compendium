@@ -4,7 +4,7 @@
 2024/05/27-15:31:27.960 1990 Delete type=0 #12
 2024/05/27-15:31:27.960 1990 Delete type=3 #6
 2024/05/27-15:31:27.960 1990 Delete type=3 #10
-2024/05/27-15:40:09.594 1a08 Level-0 table #18: started
+2024/05/27-15:40:09.594 1a08 sdfLevel-0 table #18: started
 2024/05/27-15:40:09.603 1a08 Level-0 table #18: 2279 bytes OK
 2024/05/27-15:40:09.605 1af08 Delete type=0 #16
 2024/05/27-15:40:09.636 1a08 Manual compaction at level-0 from '!folders!njig42ME9WyQNUgF' @ 72057594037927935 : 1 .. '!items!zAydvVZktMuf7ije' @ 0 : 0; will stop at (end)
