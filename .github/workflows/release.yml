@@ -2,42 +2,17 @@ name: Release Creation
 
 on:
   push:
+    paths:
+      - "packs/**"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: fwilhe2/bump-version@main
+        id: bump
+      - run: echo ${{ steps.bump.outputs.newVersion }}
 
-      - name: Github Release
-        uses: elgohr/Github-Release-Action@20240405193535
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      - uses: actions/create-release@v1
         with:
-          title: Spicy Stuff added/removed/delayed/fixed/bugged.
-
-      - uses: langroodi/tagize@v1
-
-      # get part of the tag after the `v`
-      - name: Extract tag version number
-        id: get_version
-        uses: battila7/get-version-action@v2
-
-      # Create a zip file with all files required by the module to add to the release
-      - name: Create zip file
-        run: zip -r ./module.zip module.json packs/
-
-      # Create a release for this specific version
-      - name: Update Release with Files
-        id: create_version_release
-        uses: ncipollo/release-action@v1
-        with:
-          allowUpdates: true # Set this to false if you want to prevent updating existing releases
-          name: ${{ github.event.release.name }}
-          draft: false
-          prerelease: false
-          token: ${{ secrets.GH_TOKEN }}
-          artifacts: "./module.json, ./module.zip"
-          tag: ${{ github.event.release.tag_name }}
-          body: ${{ github.event.release.body }}
+          tag_name: ${{ steps.bump.outputs.newVersion }}
