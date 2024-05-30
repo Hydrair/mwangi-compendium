@@ -49,7 +49,141 @@ folder: lbZUbnu9l8ofy7Gq
 ownership:
   default: 0
   5113qwSSgskqtmtx: 3
-flags: {}
+flags:
+  exportSource:
+    world: test
+    system: pf2e
+    coreVersion: "12.324"
+    systemVersion: 6.0.0-beta2
+  autoanimations:
+    id: 5c95bbba-c4bb-4756-b884-fd2395d03440
+    label: Magmarüstung
+    activeEffectType: ontoken
+    menu: aefx
+    macro:
+      enable: false
+      playWhen: "0"
+    primary:
+      video:
+        dbSection: static
+        menuType: fire
+        animation: groundcrack
+        variant: "01"
+        color: orange
+        enableCustom: false
+        customPath: ""
+      options:
+        addTokenWidth: false
+        anchor: "0.5"
+        delay: 0
+        elevation: 1000
+        fadeIn: 250
+        fadeOut: 500
+        isMasked: false
+        isRadius: false
+        isWait: false
+        opacity: 1
+        persistent: true
+        playbackRate: 1
+        playOn: source
+        repeat: 1
+        repeatDelay: 250
+        size: 1
+        unbindAlpha: false
+        unbindVisibility: false
+        zIndex: 1
+        tint: true
+        tintColor: "#f5a10f"
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+    secondary:
+      enable: false
+      video:
+        dbSection: static
+        menuType: spell
+        animation: curewounds
+        variant: "01"
+        color: blue
+        enableCustom: false
+        customPath: ""
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        addTokenWidth: false
+        anchor: "0.5"
+        contrast: 0
+        delay: 0
+        elevation: 1000
+        fadeIn: 250
+        fadeOut: 500
+        isMasked: false
+        isRadius: true
+        isWait: false
+        opacity: 1
+        repeat: 1
+        repeatDelay: 250
+        saturate: 0
+        size: 1.5
+        tint: false
+        tintColor: "#FFFFFF"
+        zIndex: 1
+    soundOnly:
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+    source:
+      enable: true
+      video:
+        dbSection: static
+        menuType: fire
+        animation: groundcrack
+        variant: "02"
+        color: orange
+        enableCustom: false
+        customPath: ""
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        addTokenWidth: false
+        anchor: "0.5"
+        contrast: 0
+        delay: 0
+        elevation: 1000
+        fadeIn: 250
+        fadeOut: 500
+        isMasked: false
+        isRadius: false
+        isWait: true
+        opacity: 1
+        repeat: 1
+        repeatDelay: 250
+        saturate: 0
+        size: 1
+        tint: true
+        tintColor: "#e39816"
+        zIndex: 1
+    isEnabled: true
+    isCustomized: true
+    version: 5
 _stats:
   compendiumSource: null
   duplicateSource: null
