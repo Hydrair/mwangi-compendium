@@ -1,40 +1,40 @@
 {
-  "id": "mwangi-compendium",
-  "title": "Mwangi Compendium",
-  "version": "1.0.1",
-  "compatibility": {
-    "minimum": "12",
-    "verified": "12"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-  "authors": [
-    {
-      "name": "Hydrair",
-      "flags": {}
-    }
-  ],
-  "packs": [
-    {
-      "name": "gg-items",
-      "label": "GG Items",
-      "path": "packs/gg-items",
-      "type": "Item",
-      "system": "pf2e",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      }
-    }
-  ],
-  "url": "https://github.com/Hydrair/mwangi-compendium",
-  "download": "https://github.com/Hydrair/mwangi-compendium/releases/latest/download/module.zip",
-  "manifest": "https://github.com/Hydrair/mwangi-compendium/releases/latest/download/module.json"
+    "id": "mwangi-compendium",
+    "title": "Mwangi Compendium",
+    "version": "1.1.0",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "pf2e",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "Hydrair",
+            "flags": {}
+        }
+    ],
+    "packs": [
+        {
+            "name": "gg-items",
+            "label": "GG Items",
+            "path": "packs/gg-items",
+            "type": "Item",
+            "system": "pf2e",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        }
+    ],
+    "url": "https://github.com/Hydrair/mwangi-compendium",
+    "download": "https://github.com/Hydrair/mwangi-compendium/releases/latest/download/module.zip",
+    "manifest": "https://github.com/Hydrair/mwangi-compendium/releases/latest/download/module.json"
 }
