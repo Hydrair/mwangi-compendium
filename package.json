@@ -1,0 +1,17 @@
+{
+  "name": "mwangi-compendium",
+  "version": "1.1.3",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "pushLDBtoYML": "node ./dbToYml.js",
+    "pullYMLtoLDB": "node ./ymlToDb.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.2",
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0"
+  }
+}

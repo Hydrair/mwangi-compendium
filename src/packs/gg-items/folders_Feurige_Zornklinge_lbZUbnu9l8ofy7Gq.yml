@@ -1,0 +1,20 @@
+name: Feurige Zornklinge
+sorting: a
+folder: q5F8YTJRGto5KIAa
+type: Item
+_id: lbZUbnu9l8ofy7Gq
+description: ''
+sort: 100000
+color: '#e03800'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.324'
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1717059344468
+  modifiedTime: 1717059347509
+  lastModifiedBy: 5113qwSSgskqtmtx
+_key: '!folders!lbZUbnu9l8ofy7Gq'
+

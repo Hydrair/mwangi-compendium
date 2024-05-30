@@ -1,0 +1,62 @@
+folder: qKSHAabxyHKu6wgP
+name: "Verwandlung: Grüner Drache"
+type: effect
+effects: []
+system:
+  description:
+    gm: ""
+    value: ""
+  rules:
+    - key: CreatureSize
+      reach:
+        override: 10
+      resizeEquipment: true
+      value: large
+    - key: TokenImage
+      value:
+        - ""
+        - frochen.png
+  slug: null
+  _migration:
+    version: 0.926
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ""
+    authors: ""
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+img: img/frochen.png
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: "12.324"
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1717059409449
+  modifiedTime: 1717061683338
+  lastModifiedBy: 5113qwSSgskqtmtx
+_id: ZYQxc6jku7NJSpdU
+sort: 0
+_key: "!items!ZYQxc6jku7NJSpdU"

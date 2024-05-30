@@ -1,0 +1,86 @@
+name: Drachenformtrank
+type: consumable
+effects: []
+system:
+  description:
+    gm: ""
+    value: >-
+      <p>Entfessle deinen inneren Drachen für 1 Stunde. Du erhältst
+      @UUID[Item.PaExa3KKMAMAAOQu]{Verwandlung: Grüner Drache}.</p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.926
+    lastMigration: null
+  traits:
+    otherTags: []
+    value:
+      - consumable
+      - polymorph
+    rarity: unique
+  publication:
+    title: ""
+    authors: ""
+    license: OGL
+    remaster: false
+  level:
+    value: 0
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0.1
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value: {}
+  equipped:
+    carryType: worn
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Object
+      img: systems/pf2e/icons/unidentified_item_icons/other-consumables.webp
+      data:
+        description:
+          value: ""
+    misidentified: {}
+  category: other
+  uses:
+    value: 1
+    max: 1
+    autoDestroy: true
+  damage: null
+  usage:
+    value: held-in-one-hand
+  stackGroup: null
+  spell: null
+img: img/drachentrank.png
+folder: qKSHAabxyHKu6wgP
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
+flags:
+  exportSource:
+    world: test
+    system: pf2e
+    coreVersion: "12.324"
+    systemVersion: 6.0.0-beta2
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: "12.324"
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1717059411331
+  modifiedTime: 1717061678330
+  lastModifiedBy: 5113qwSSgskqtmtx
+_id: 7hG8LlTwBVbY5MRy
+sort: 0
+_key: "!items!7hG8LlTwBVbY5MRy"

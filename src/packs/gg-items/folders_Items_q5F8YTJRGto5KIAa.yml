@@ -1,0 +1,20 @@
+name: Items
+sorting: a
+folder: null
+type: Item
+_id: q5F8YTJRGto5KIAa
+description: ''
+sort: 0
+color: null
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.324'
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1716656778486
+  modifiedTime: 1716656778486
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!folders!q5F8YTJRGto5KIAa'
+

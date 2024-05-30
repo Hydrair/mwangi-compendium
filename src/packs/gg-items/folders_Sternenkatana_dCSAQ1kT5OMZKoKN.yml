@@ -1,0 +1,20 @@
+name: Sternenkatana
+sorting: a
+folder: q5F8YTJRGto5KIAa
+type: Item
+_id: dCSAQ1kT5OMZKoKN
+description: ''
+sort: 0
+color: '#7300ff'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.324'
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: null
+  modifiedTime: 1717059358315
+  lastModifiedBy: 5113qwSSgskqtmtx
+_key: '!folders!dCSAQ1kT5OMZKoKN'
+

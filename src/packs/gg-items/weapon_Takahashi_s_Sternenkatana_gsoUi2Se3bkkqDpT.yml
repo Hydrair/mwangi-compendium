@@ -1,0 +1,154 @@
+name: Takahashi´s Sternenkatana
+type: weapon
+effects: []
+system:
+  description:
+    gm: ""
+    value: >-
+      <p>Das Katana ist an deine Seele gebunden und du kannst es bei Verlust
+      wieder aus dem Himmel beschwören.</p><hr
+      /><h3>@UUID[Compendium.mwangi-compendium.gg-items.Item.FGQthNrlKTAGgfDM]</h3><p><strong>Activate</strong>
+      <span class="action-glyph">2</span> Interact</p><p><strong>Frequency
+      </strong>Einmal pro Tag</p><p><strong>Effect </strong>Alle Kreaturen in
+      einem @Template[type:cone|distance:30] und die du bestimmst, werden vom
+      Licht der Waffe geblendet und versuchen einen
+      @Check[type:reflex|dc:25|name:Sternenschimmer] Rettungswurf.</p><hr
+      /><p><strong>Critical Success</strong> Nichts
+      passiert.</p><p><strong>Success</strong> Die Kreaturen werden
+      @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} bis
+      zum Ende deiner nächsten Runde.</p><p><strong>Failure</strong> Die
+      Kreaturen werden
+      @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded 1} bis
+      zum Ende deiner nächsten Runde.</p><p><strong>Critical Failure</strong>
+      Die Kreaturen werden
+      @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded 2} bis
+      zum Ende deiner nächsten Runde und du wirst
+      @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}.</p><hr
+      /><h3>Sternenriss</h3><p><strong>Activate</strong> <span
+      class="action-glyph">4</span> Free Action</p><p><strong>Frequency
+      </strong>Einmal pro Tag (unter Sternenhimmel unbegrenzt
+      einsetzbar)</p><p><strong>Effect </strong>Bei einem kritischen Treffer
+      entsteht ein kleiner Riss im Raum-Zeit-Gefüge und alle Ziele in einem
+      @Template[type:burst|distance:10] vom Treffer werden zum Riss 5 Fuß
+      gezogen und sind, solange sie in dem Feld stehen, gegen jeden Angriff
+      @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.</p>
+  rules:
+    - key: Note
+      selector: damage
+      text: >-
+        Bei einem kritischen Treffer entsteht ein kleiner Riss im
+        Raum-Zeit-Gefüge und alle Ziele in einem
+        @Template[type:burst|distance:10] vom Treffer werden zum Riss 5 Fuß
+        gezogen und sind, solange sie in dem Feld stehen, gegen jeden Angriff
+        @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.
+      title: "{item|name}"
+      outcome:
+        - criticalSuccess
+  slug: null
+  _migration:
+    version: 0.926
+    lastMigration: null
+  traits:
+    otherTags: []
+    value:
+      - artifact
+      - deadly-d10
+      - two-hand-d10
+      - versatile-p
+    rarity: unique
+  publication:
+    title: ""
+    authors: ""
+    license: OGL
+    remaster: false
+  level:
+    value: 10
+  quantity: 1
+  baseItem: katana
+  bulk:
+    value: 0
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value: {}
+  equipped:
+    carryType: worn
+    invested: null
+    handsHeld: 0
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Weapon
+      img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+      data:
+        description:
+          value: ""
+    misidentified: {}
+  usage:
+    value: held-in-one-hand
+  category: martial
+  group: sword
+  bonus:
+    value: 0
+  damage:
+    dice: 1
+    die: d8
+    damageType: slashing
+    persistent: null
+  bonusDamage:
+    value: 0
+  splashDamage:
+    value: 0
+  range: null
+  reload:
+    value: "1"
+  runes:
+    potency: 1
+    striking: 1
+    property:
+      - crushing
+  specific: null
+  subitems: []
+  property1:
+    value: " "
+    dice: 0
+    die: ""
+    damageType: ""
+    critDice: 0
+    critDie: ""
+    critDamage: ""
+    critDamageType: ""
+    strikeConditionType: ""
+    strikeConditionValue: null
+    criticalConditionType: ""
+    criticalConditionValue: null
+img: img/katana.jpg
+folder: dCSAQ1kT5OMZKoKN
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
+flags:
+  exportSource:
+    world: test
+    system: pf2e
+    coreVersion: "12.324"
+    systemVersion: 6.0.0-beta2
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: "12.324"
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1717059384016
+  modifiedTime: 1717061670613
+  lastModifiedBy: 5113qwSSgskqtmtx
+_id: gsoUi2Se3bkkqDpT
+sort: 0
+_key: "!items!gsoUi2Se3bkkqDpT"

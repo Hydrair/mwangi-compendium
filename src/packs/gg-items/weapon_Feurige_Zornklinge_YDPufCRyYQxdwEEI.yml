@@ -1,0 +1,195 @@
+name: Feurige Zornklinge
+type: weapon
+effects: []
+system:
+  description:
+    gm: ""
+    value: >-
+      <p>Diese legendäre Axt wurde in purem Magma geschmiedet.</p><hr
+      /><h3>Entzünden</h3><p><span style="font-family:Roboto, sans-serif">Bei
+      einem kritischen Treffer strömt das unbändige Magma aus der Axt und trifft
+      ebenso die beiden Ziele links und rechts.</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif">Danach ensteht an dieser Stelle für
+      1 Runde eine Feuerwand bis außer Willy zwingt die Axt unter seiner
+      Kontrolle.</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif">Entzünden lädt den Spellstrike
+      auf.</span></p><hr
+      /><h3>@UUID[Compendium.mwangi-compendium.gg-items.Item.dRf84VpjTTrlBAbx]</h3><p><strong>Activate</strong>
+      <span class="action-glyph">2</span> Interact</p><p><strong>Frequency
+      </strong>Einmal pro Tag</p><p><strong>Effect </strong><span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">Die Axt wird nach oben
+      gereckt und der Träger lässt das gebundene Magma einfach heraussickern und
+      wie einen Mantel an ihm herunterfließen. Lege einen
+      </span>@Check[type:fortitude|dc:24|name:Infernoschutz] <span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">gegen 24 ab</span>.</p><hr
+      /><p><strong>Kritischer Erfolg</strong> <span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">Das Magma härtet sich. Du
+      erhältst Feuerresistenz 10 und Physisch 10 für den Rest des
+      Kampfes.</span></p><p><strong>Erfolg</strong> <span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">Du wirst durch das Magma
+      geschützt. Du erhältst Feuerresistenz 5 und Physisch 5 für den Rest des
+      Kampfes.</span></p><p><strong>Misserfolg</strong> <span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">Du nimmst
+      @Damage[2d12[fire]] und erhältst Feuerresistenz 5 und Physisch 5 für den
+      Rest des Kampfes.</span></p><p><strong>Kritischer Misserfolg</strong>
+      <span style="font-family:system-ui, -apple-system, BlinkMacSystemFont,
+      'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe
+      UI Symbol', sans-serif, 'Noto Color Emoji', Inter">Du nimmst
+      @Damage[(4d6+5)[fire]] und erhältst Feuerresistenz 5 und Physisch 5 für
+      den Rest des Kampfes.</span></p><hr /><p><span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">Du kannst den Mantel
+      frühzeitig sprengen. In einem
+      </span>@Template[type:burst|distance:30]<span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter"> müssen alle Gegner einen
+      </span>@Check[type:reflex|dc:25|name:Infernoschutz] <span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">ablegen, ansonsten haut
+      die Heiße Druckwelle sie
+      @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</span></p>
+  rules:
+    - key: Note
+      selector: damage
+      text: >-
+        Das unbändige Magma strömt aus der Axt und trifft ebenso die beiden
+        Ziele links und rechts. Danach ensteht an dieser Stelle für 1 Runde eine
+        Feuerwand @Template[type:line|distance:15]. Entzünden lädt den
+        Spellstrike auf.
+      outcome:
+        - criticalSuccess
+      title: "{item|name}"
+  slug: null
+  _migration:
+    version: 0.926
+    lastMigration: null
+  traits:
+    otherTags: []
+    value:
+      - deadly-d10
+      - kobold
+      - sweep
+    rarity: unique
+  publication:
+    title: ""
+    authors: ""
+    license: OGL
+    remaster: false
+  level:
+    value: 8
+  quantity: 1
+  baseItem: greataxe
+  bulk:
+    value: 0.1
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value: {}
+  equipped:
+    carryType: worn
+    invested: null
+    handsHeld: 0
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Weapon
+      img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+      data:
+        description:
+          value: ""
+    misidentified: {}
+  usage:
+    value: held-in-one-hand
+  category: simple
+  group: axe
+  bonus:
+    value: 0
+  damage:
+    dice: 1
+    die: d12
+    damageType: slashing
+    persistent: null
+  bonusDamage:
+    value: 0
+  splashDamage:
+    value: 0
+  range: null
+  reload:
+    value: null
+  runes:
+    potency: 1
+    striking: 1
+    property:
+      - flaming
+  specific:
+    material:
+      type: null
+      grade: null
+    runes:
+      potency: 1
+      striking: 1
+      property:
+        - flaming
+  subitems: []
+  property1:
+    value: ""
+    dice: 0
+    die: ""
+    damageType: ""
+    critDice: 0
+    critDie: ""
+    critDamage: ""
+    critDamageType: ""
+    strikeConditionType: ""
+    strikeConditionValue: null
+    criticalConditionType: ""
+    criticalConditionValue: null
+img: img/feueraxt.webp
+folder: lbZUbnu9l8ofy7Gq
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
+flags:
+  exportSource:
+    world: test
+    system: pf2e
+    coreVersion: "12.324"
+    systemVersion: 6.0.0-beta2
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: "12.324"
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1717059369485
+  modifiedTime: 1717061618012
+  lastModifiedBy: 5113qwSSgskqtmtx
+_id: YDPufCRyYQxdwEEI
+sort: 0
+_key: "!items!YDPufCRyYQxdwEEI"

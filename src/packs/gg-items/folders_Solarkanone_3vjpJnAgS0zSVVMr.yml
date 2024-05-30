@@ -1,0 +1,20 @@
+name: Solarkanone
+sorting: a
+folder: q5F8YTJRGto5KIAa
+type: Item
+_id: 3vjpJnAgS0zSVVMr
+description: ''
+sort: 0
+color: '#ffaa33'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.324'
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: null
+  modifiedTime: null
+  lastModifiedBy: null
+_key: '!folders!3vjpJnAgS0zSVVMr'
+
