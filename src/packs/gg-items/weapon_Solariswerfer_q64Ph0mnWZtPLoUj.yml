@@ -1,0 +1,137 @@
+img: modules/mwangi-compendium/img/solariswerfer.png
+name: Solariswerfer
+system:
+  description:
+    gm: ""
+    value: >-
+      <p>This <em>+1 striking flintlock musket</em> features multiple triangular
+      panels that can be folded out of the stock, like the petals of a tigridia
+      flower, that collect sunlight and feed it into the spark gun's core. All
+      damage dealt by a <em>solar shellflower</em> is fire
+      damage.</p><p><strong>Activate</strong> <span
+      class="action-glyph">1</span> Interact</p><p><strong>Frequency</strong>
+      once per day (but see below)</p><hr /><p><strong>Effect</strong> One of
+      the panels from the <em>solar shellflower</em> detaches and unfurls into a
+      tigridia-shaped construct of flame. For the next 1 minute, whenever you
+      Strike an enemy with the <em>solar shellflower</em>, the construct fires a
+      smaller jet of fire that automatically hits the target, dealing
+      @Damage[3d4[persistent,fire]]{3d4 additional persistent fire damage} or
+      twice that on a critical hit. The <em>solar shellflower</em> usually
+      requires a full day to replenish enough solar energy to recharge this
+      Activation, but if used in an environment with especially strong sunlight,
+      such as in a desert, cliff above the clouds, or near the summer solstice,
+      it can recharge in 1 hour
+      instead.</p><p>@UUID[Compendium.mwangi-compendium.gg-items.Item.LowFGbFFs5HExKt1]</p><p></p><p></p>
+  rules: []
+  slug: solar-shellflower
+  _migration:
+    version: 0.926
+    lastMigration: null
+    previous: null
+  traits:
+    otherTags: []
+    value:
+      - concussive
+      - fatal-d10
+    rarity: uncommon
+  publication:
+    title: Pathfinder Treasure Vault
+    authors: ""
+    license: OGL
+    remaster: false
+  level:
+    value: 5
+  quantity: 1
+  baseItem: flintlock-musket
+  bulk:
+    value: 1
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 160
+  equipped:
+    carryType: worn
+    invested: null
+    handsHeld: 0
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Flintlock Musket
+      img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
+      data:
+        description:
+          value: ""
+    misidentified: {}
+  usage:
+    value: held-in-two-hands
+  category: simple
+  group: firearm
+  bonus:
+    value: 0
+  damage:
+    dice: 1
+    die: d6
+    damageType: fire
+    persistent: null
+  bonusDamage:
+    value: 0
+  splashDamage:
+    value: 0
+  range: 90
+  reload:
+    value: "1"
+  runes:
+    potency: 1
+    striking: 1
+    property: []
+  specific:
+    material:
+      grade: null
+      type: null
+    runes:
+      potency: 1
+      property: []
+      striking: 1
+  subitems: []
+  property1:
+    value: ""
+    dice: 0
+    die: ""
+    damageType: ""
+    critDice: 0
+    critDie: ""
+    critDamage: ""
+    critDamageType: ""
+    strikeConditionType: ""
+    strikeConditionValue: null
+    criticalConditionType: ""
+    criticalConditionValue: null
+type: weapon
+flags:
+  core:
+    sourceId: Compendium.pf2e.equipment-srd.Item.mf5eeIdKjfSZ0K3p
+effects: []
+_stats:
+  compendiumSource: Compendium.pf2e.equipment-srd.Item.mf5eeIdKjfSZ0K3p
+  duplicateSource: null
+  coreVersion: "12.324"
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1717079319935
+  modifiedTime: 1717079319935
+  lastModifiedBy: 5113qwSSgskqtmtx
+folder: 3vjpJnAgS0zSVVMr
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
+_id: q64Ph0mnWZtPLoUj
+sort: 0
+_key: "!items!q64Ph0mnWZtPLoUj"
