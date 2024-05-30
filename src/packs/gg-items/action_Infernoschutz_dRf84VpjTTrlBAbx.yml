@@ -70,7 +70,7 @@ system:
       outcome:
         - criticalFailure
     - key: Note
-      text: Du erhältst @UUID[Item.PAhvUanrW9FW7oCs].
+      text: Du erhältst @UUID[Compendium.mwangi-compendium.gg-items.Item.EC6Nyu0PgpNJSbNH].
       title: "{item|name}"
       selector:
         - item:infernoschutz
@@ -80,7 +80,7 @@ system:
         - failure
         - success
     - key: Note
-      text: Du erhältst @UUID[Item.BFZGw9P7X0B25ZKD].
+      text: Du erhältst @UUID[Compendium.mwangi-compendium.gg-items.Item.TWnqqPsUvFMeJxE0].
       title: "{item|name}"
       selector:
         - item:infernoschutz
