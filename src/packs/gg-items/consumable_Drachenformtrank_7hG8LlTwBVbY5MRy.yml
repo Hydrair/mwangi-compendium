@@ -61,7 +61,7 @@ system:
     value: held-in-one-hand
   stackGroup: null
   spell: null
-img: img/drachentrank.png
+img: modules/mwangi-compendium/img/drachentrank.png
 folder: qKSHAabxyHKu6wgP
 ownership:
   default: 0

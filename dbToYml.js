@@ -5,7 +5,7 @@ import path from "path";
 const MODULE_ID = process.cwd();
 const yaml = true;
 
-const packs = await fs.readdir("./foundryImport/packs");
+const packs = await fs.readdir("./foundryImport");
 for (const pack of packs) {
   if (pack === ".gitattributes") continue;
   console.log("Unpacking " + pack);
@@ -19,7 +19,7 @@ for (const pack of packs) {
     else console.log(error);
   }
   await extractPack(
-    `${MODULE_ID}/packs/${pack}`,
+    `./foundryImport/${pack}`,
     `${MODULE_ID}/src/packs/${pack}`,
     {
       yaml,

@@ -43,7 +43,7 @@ system:
   badge: null
   context: null
   unidentified: false
-img: img/frochen.png
+img: modules/mwangi-compendium/img/frochen.png
 ownership:
   default: 0
   5113qwSSgskqtmtx: 3

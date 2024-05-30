@@ -109,7 +109,7 @@ system:
   frequency:
     max: 1
     per: day
-img: img/infernoschutz.png
+img: modules/mwangi-compendium/img/infernoschutz.png
 folder: lbZUbnu9l8ofy7Gq
 ownership:
   default: 0

@@ -70,7 +70,7 @@ system:
     damage: {}
   overlays: {}
   ritual: null
-img: img/sternenschimmer.jpg
+img: modules/mwangi-compendium/img/sternenschimmer.jpg
 folder: dCSAQ1kT5OMZKoKN
 ownership:
   default: 0
