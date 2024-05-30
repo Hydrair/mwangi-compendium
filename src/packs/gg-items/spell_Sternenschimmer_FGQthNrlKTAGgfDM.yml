@@ -79,50 +79,17 @@ flags:
   autoanimations:
     id: 03eecc9c-ffb0-490c-8e91-54af8065adad
     label: Sternenschimmer
-    levels3d:
-      type: explosion
-      data:
-        color01: "#FFFFFF"
-        color02: "#FFFFFF"
-        spritePath: modules/levels-3d-preview/assets/particles/dust.png
-      sound:
-        enable: false
-      secondary:
-        enable: false
-        data:
-          color01: "#FFFFFF"
-          color02: "#FFFFFF"
-          spritePath: modules/levels-3d-preview/assets/particles/dust.png
     macro:
       enable: false
       playWhen: "0"
-    meleeSwitch:
-      video:
-        dbSection: range
-        menuType: weapon
-        animation: arrow
-        variant: regular
-        color: regular
-      sound:
-        enable: false
-        delay: 0
-        repeat: 1
-        repeatDelay: 250
-        startTime: 0
-        volume: 0.75
-      options:
-        detect: automatic
-        range: 2
-        returning: false
-        switchType: "on"
-    menu: melee
+    menu: templatefx
     primary:
       video:
-        dbSection: melee
-        menuType: weapon
-        animation: greatsword
-        variant: "01"
-        color: white
+        dbSection: templatefx
+        menuType: cone
+        animation: breathweapon
+        variant: cold
+        color: blue
         enableCustom: false
         customPath: ""
       sound:
@@ -133,19 +100,27 @@ flags:
         startTime: 0
         volume: 0.75
       options:
-        contrast: 0
+        contrast: 0.58
         delay: 0
         elevation: 1000
+        isMasked: false
         isWait: false
+        occlusionAlpha: 0.5
+        occlusionMode: "3"
         opacity: 1
-        playbackRate: 1
+        persistent: false
+        persistType: sequencerground
+        playbackRate: 9
+        removeTemplate: false
         repeat: 1
         repeatDelay: 250
+        rotate: 0
         saturate: 0
-        size: 1
+        scale: "1"
         tint: true
-        tintColor: "#4dffe1"
+        tintColor: "#FFFFFF"
         zIndex: 1
+        saturation: 0.73
     secondary:
       enable: false
       video:
@@ -268,11 +243,6 @@ flags:
     isCustomized: true
     fromAmmo: false
     version: 5
-  exportSource:
-    world: test
-    system: pf2e
-    coreVersion: "12.324"
-    systemVersion: 6.0.0-beta2
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -280,7 +250,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.0.0-beta2
   createdTime: 1717059379706
-  modifiedTime: 1717061663016
+  modifiedTime: 1717082237249
   lastModifiedBy: 5113qwSSgskqtmtx
 _id: FGQthNrlKTAGgfDM
 sort: 0
