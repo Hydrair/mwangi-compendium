@@ -1,0 +1,257 @@
+img: modules/mwangi-compendium/img/schattennova.png
+name: Schattennova
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Die Dunkelheit verdichtet sich und fügt Gegnern 4d6+10 void Schaden
+      zu.</p>
+  rules: []
+  slug: schattennova
+  _migration:
+    version: 0.926
+    lastMigration: null
+    previous: null
+  traits:
+    otherTags: []
+    value:
+      - manipulate
+      - void
+    rarity: common
+    traditions:
+      - arcane
+      - occult
+  publication:
+    title: Pathfinder Player Core
+    authors: ''
+    license: ORC
+    remaster: true
+  level:
+    value: 1
+  requirements: ''
+  target:
+    value: ''
+  range:
+    value: 60 feet
+  area:
+    type: burst
+    value: 10
+  time:
+    value: '2'
+  duration:
+    value: ''
+    sustained: false
+  damage:
+    '0':
+      applyMod: false
+      category: null
+      formula: 4d6+10
+      kinds:
+        - damage
+      materials: []
+      type: void
+  defense:
+    save:
+      basic: true
+      statistic: reflex
+  cost:
+    value: ''
+  location:
+    value: null
+  counteraction: false
+  heightening:
+    damage:
+      '0': 2d6
+    interval: 1
+    type: interval
+type: spell
+flags:
+  core:
+    sourceId: Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd
+  autoanimations:
+    id: 82efde8f-9851-432f-87f0-90cd0b3114f1
+    label: Schattennova
+    macro:
+      enable: false
+      playWhen: '0'
+    menu: preset
+    secondary:
+      enable: false
+      video:
+        dbSection: static
+        menuType: spell
+        animation: curewounds
+        variant: '01'
+        color: blue
+        enableCustom: false
+        customPath: ''
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        addTokenWidth: false
+        anchor: '0.5'
+        contrast: 0
+        delay: 0
+        elevation: 1000
+        fadeIn: 250
+        fadeOut: 500
+        isMasked: false
+        isRadius: true
+        isWait: false
+        opacity: 1
+        repeat: 1
+        repeatDelay: 250
+        saturate: 0
+        size: 1.5
+        tint: false
+        tintColor: '#FFFFFF'
+        zIndex: 1
+    soundOnly:
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+    target:
+      enable: false
+      video:
+        dbSection: static
+        menuType: spell
+        animation: curewounds
+        variant: '01'
+        color: blue
+        enableCustom: false
+        customPath: ''
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        addTokenWidth: false
+        anchor: '0.5'
+        contrast: 0
+        delay: 0
+        elevation: 1000
+        fadeIn: 250
+        fadeOut: 500
+        isMasked: false
+        isRadius: false
+        opacity: 1
+        persistent: false
+        repeat: 1
+        repeatDelay: 250
+        saturate: 0
+        size: 1
+        tint: false
+        tintColor: '#FFFFFF'
+        unbindAlpha: false
+        unbindVisibility: false
+        zIndex: 1
+    isEnabled: true
+    isCustomized: true
+    fromAmmo: false
+    version: 5
+    presetType: proToTemp
+    data:
+      projectile:
+        dbSection: range
+        menuType: weapon
+        animation: arrow
+        variant: regular
+        color: regular
+        enableCustom: false
+        customPath: ''
+        options:
+          elevation: 1000
+          opacity: 1
+          playbackRate: 1
+          repeat: 1
+          repeatDelay: 250
+          removeTemplate: false
+          wait: 0
+        sound:
+          enable: false
+          delay: 0
+          repeat: 1
+          repeatDelay: 250
+          startTime: 0
+          volume: 0.75
+      preExplosion:
+        dbSection: static
+        menuType: spell
+        animation: curewounds
+        variant: '01'
+        color: blue
+        options:
+          elevation: 1000
+          opacity: 1
+          playbackRate: 1
+          repeat: 1
+          repeatDelay: 250
+          scale: 1
+          wait: 0
+        enable: false
+        sound:
+          enable: false
+          delay: 0
+          repeat: 1
+          repeatDelay: 250
+          startTime: 0
+          volume: 0.75
+      explosion:
+        dbSection: static
+        menuType: spell
+        animation: armsofhadar
+        variant: '01'
+        color: darkpurple
+        options:
+          elevation: 1000
+          opacity: 1
+          playbackRate: 1
+          repeat: 1
+          repeatDelay: 250
+          scale: 1.25
+          wait: -500
+          isAbsolute: false
+        sound:
+          enable: false
+          delay: 0
+          repeat: 1
+          repeatDelay: 250
+          startTime: 0
+          volume: 0.75
+      afterImage:
+        enable: false
+        customPath: ''
+        options:
+          elevation: 0
+          persistent: false
+          scale: 1
+effects: []
+_stats:
+  compendiumSource: Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd
+  duplicateSource: null
+  coreVersion: '12.324'
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1720096776837
+  modifiedTime: 1720096776837
+  lastModifiedBy: 5113qwSSgskqtmtx
+folder: JKTZIpfMeoGxtwTG
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
+_id: nrNo2pl32GZ6ccW0
+sort: 0
+_key: '!items!nrNo2pl32GZ6ccW0'
+
