@@ -3,7 +3,7 @@ type: consumable
 effects: []
 system:
   description:
-    gm: ""
+    gm: ''
     value: >-
       <p>Entfessle deinen inneren Drachen für 1 Stunde. Du erhältst
       @UUID[Item.PaExa3KKMAMAAOQu]{Verwandlung: Grüner Drache}.</p>
@@ -19,8 +19,8 @@ system:
       - polymorph
     rarity: unique
   publication:
-    title: ""
-    authors: ""
+    title: ''
+    authors: ''
     license: OGL
     remaster: false
   level:
@@ -49,7 +49,7 @@ system:
       img: systems/pf2e/icons/unidentified_item_icons/other-consumables.webp
       data:
         description:
-          value: ""
+          value: ''
     misidentified: {}
   category: other
   uses:
@@ -70,12 +70,12 @@ flags:
   exportSource:
     world: test
     system: pf2e
-    coreVersion: "12.324"
+    coreVersion: '12.324'
     systemVersion: 6.0.0-beta2
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: "12.324"
+  coreVersion: '12.324'
   systemId: pf2e
   systemVersion: 6.0.0-beta2
   createdTime: 1717059411331
@@ -83,4 +83,5 @@ _stats:
   lastModifiedBy: 5113qwSSgskqtmtx
 _id: 7hG8LlTwBVbY5MRy
 sort: 0
-_key: "!items!7hG8LlTwBVbY5MRy"
+_key: '!items!7hG8LlTwBVbY5MRy'
+

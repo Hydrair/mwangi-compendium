@@ -22,7 +22,14 @@ system:
       such as in a desert, cliff above the clouds, or near the summer solstice,
       it can recharge in 1 hour
       instead.</p><p>@UUID[Compendium.mwangi-compendium.gg-items.Item.LowFGbFFs5HExKt1]</p><p></p><p></p>
-  rules: []
+  rules:
+    - key: Note
+      title: "{item|name}"
+      selector: damage
+      text: >-
+        Bei einem kritischen Treffer wird das Ziel durchbohrt. Führe einen Angriff auf ein weiteres Ziel dahinter aus.
+      outcome:
+        - criticalSuccess
   slug: solar-shellflower
   _migration:
     version: 0.926
@@ -33,7 +40,7 @@ system:
     value:
       - concussive
       - fatal-d10
-    rarity: uncommon
+    rarity: unique
   publication:
     title: Pathfinder Treasure Vault
     authors: ""
@@ -126,7 +133,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.0.0-beta2
   createdTime: 1717079319935
-  modifiedTime: 1717079319935
+  modifiedTime: 1720093363114
   lastModifiedBy: 5113qwSSgskqtmtx
 folder: 3vjpJnAgS0zSVVMr
 ownership:

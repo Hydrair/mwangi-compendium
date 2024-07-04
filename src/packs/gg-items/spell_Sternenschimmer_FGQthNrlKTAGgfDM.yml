@@ -3,7 +3,7 @@ type: spell
 effects: []
 system:
   description:
-    gm: ""
+    gm: ''
     value: >-
       <p><strong>Activate</strong> <span class="action-glyph">2</span>
       Interact</p><p><strong>Frequency </strong>Einmal pro
@@ -36,24 +36,24 @@ system:
     rarity: unique
     traditions: []
   publication:
-    title: ""
-    authors: ""
+    title: ''
+    authors: ''
     license: OGL
     remaster: false
   level:
     value: 1
-  requirements: ""
+  requirements: ''
   target:
     value: enemy
   range:
-    value: ""
+    value: ''
   area:
     value: 30
     type: cone
   time:
-    value: "2"
+    value: '2'
   duration:
-    value: ""
+    value: ''
     sustained: false
   damage: {}
   defense:
@@ -62,7 +62,7 @@ system:
       statistic: reflex
       basic: false
   cost:
-    value: ""
+    value: ''
   location:
     value: null
   counteraction: false
@@ -81,7 +81,7 @@ flags:
     label: Sternenschimmer
     macro:
       enable: false
-      playWhen: "0"
+      playWhen: '0'
     menu: templatefx
     primary:
       video:
@@ -91,7 +91,7 @@ flags:
         variant: cold
         color: blue
         enableCustom: false
-        customPath: ""
+        customPath: ''
       sound:
         enable: false
         delay: 0
@@ -106,7 +106,7 @@ flags:
         isMasked: false
         isWait: false
         occlusionAlpha: 0.5
-        occlusionMode: "3"
+        occlusionMode: '3'
         opacity: 1
         persistent: false
         persistType: sequencerground
@@ -116,9 +116,9 @@ flags:
         repeatDelay: 250
         rotate: 0
         saturate: 0
-        scale: "1"
+        scale: '1'
         tint: true
-        tintColor: "#FFFFFF"
+        tintColor: '#FFFFFF'
         zIndex: 1
         saturation: 0.73
     secondary:
@@ -127,10 +127,10 @@ flags:
         dbSection: static
         menuType: spell
         animation: curewounds
-        variant: "01"
+        variant: '01'
         color: blue
         enableCustom: false
-        customPath: ""
+        customPath: ''
       sound:
         enable: false
         delay: 0
@@ -140,7 +140,7 @@ flags:
         volume: 0.75
       options:
         addTokenWidth: false
-        anchor: "0.5"
+        anchor: '0.5'
         contrast: 0
         delay: 0
         elevation: 1000
@@ -155,7 +155,7 @@ flags:
         saturate: 0
         size: 1.5
         tint: false
-        tintColor: "#FFFFFF"
+        tintColor: '#FFFFFF'
         zIndex: 1
     soundOnly:
       sound:
@@ -171,10 +171,10 @@ flags:
         dbSection: static
         menuType: particles
         animation: swirl
-        variant: "02"
+        variant: '02'
         color: greenyellow
         enableCustom: false
-        customPath: ""
+        customPath: ''
       sound:
         enable: false
         delay: 0
@@ -184,7 +184,7 @@ flags:
         volume: 0.75
       options:
         addTokenWidth: false
-        anchor: "0.5"
+        anchor: '0.5'
         contrast: 0
         delay: 0
         elevation: 1000
@@ -199,7 +199,7 @@ flags:
         saturate: 0
         size: 1
         tint: true
-        tintColor: "#47f3ff"
+        tintColor: '#47f3ff'
         zIndex: 1
     target:
       enable: false
@@ -207,10 +207,10 @@ flags:
         dbSection: static
         menuType: spell
         animation: curewounds
-        variant: "01"
+        variant: '01'
         color: blue
         enableCustom: false
-        customPath: ""
+        customPath: ''
       sound:
         enable: false
         delay: 0
@@ -220,7 +220,7 @@ flags:
         volume: 0.75
       options:
         addTokenWidth: false
-        anchor: "0.5"
+        anchor: '0.5'
         contrast: 0
         delay: 0
         elevation: 1000
@@ -235,7 +235,7 @@ flags:
         saturate: 0
         size: 1
         tint: false
-        tintColor: "#FFFFFF"
+        tintColor: '#FFFFFF'
         unbindAlpha: false
         unbindVisibility: false
         zIndex: 1
@@ -246,7 +246,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: "12.324"
+  coreVersion: '12.324'
   systemId: pf2e
   systemVersion: 6.0.0-beta2
   createdTime: 1717059379706
@@ -254,4 +254,5 @@ _stats:
   lastModifiedBy: 5113qwSSgskqtmtx
 _id: FGQthNrlKTAGgfDM
 sort: 0
-_key: "!items!FGQthNrlKTAGgfDM"
+_key: '!items!FGQthNrlKTAGgfDM'
+

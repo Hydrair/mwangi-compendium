@@ -3,7 +3,7 @@ type: effect
 effects: []
 system:
   description:
-    gm: ""
+    gm: ''
     value: >-
       <p><span style="font-family:system-ui, -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe
@@ -25,8 +25,8 @@ system:
     otherTags: []
     value: []
   publication:
-    title: ""
-    authors: ""
+    title: ''
+    authors: ''
     license: OGL
     remaster: false
   level:
@@ -53,7 +53,7 @@ flags:
   exportSource:
     world: test
     system: pf2e
-    coreVersion: "12.324"
+    coreVersion: '12.324'
     systemVersion: 6.0.0-beta2
   autoanimations:
     id: 5c95bbba-c4bb-4756-b884-fd2395d03440
@@ -62,19 +62,19 @@ flags:
     menu: aefx
     macro:
       enable: false
-      playWhen: "0"
+      playWhen: '0'
     primary:
       video:
         dbSection: static
         menuType: fire
         animation: groundcrack
-        variant: "01"
+        variant: '01'
         color: orange
         enableCustom: false
-        customPath: ""
+        customPath: ''
       options:
         addTokenWidth: false
-        anchor: "0.5"
+        anchor: '0.5'
         delay: 0
         elevation: 1000
         fadeIn: 250
@@ -93,7 +93,7 @@ flags:
         unbindVisibility: false
         zIndex: 1
         tint: true
-        tintColor: "#f5a10f"
+        tintColor: '#f5a10f'
       sound:
         enable: false
         delay: 0
@@ -107,10 +107,10 @@ flags:
         dbSection: static
         menuType: spell
         animation: curewounds
-        variant: "01"
+        variant: '01'
         color: blue
         enableCustom: false
-        customPath: ""
+        customPath: ''
       sound:
         enable: false
         delay: 0
@@ -120,7 +120,7 @@ flags:
         volume: 0.75
       options:
         addTokenWidth: false
-        anchor: "0.5"
+        anchor: '0.5'
         contrast: 0
         delay: 0
         elevation: 1000
@@ -135,7 +135,7 @@ flags:
         saturate: 0
         size: 1.5
         tint: false
-        tintColor: "#FFFFFF"
+        tintColor: '#FFFFFF'
         zIndex: 1
     soundOnly:
       sound:
@@ -151,10 +151,10 @@ flags:
         dbSection: static
         menuType: fire
         animation: groundcrack
-        variant: "02"
+        variant: '02'
         color: orange
         enableCustom: false
-        customPath: ""
+        customPath: ''
       sound:
         enable: false
         delay: 0
@@ -164,7 +164,7 @@ flags:
         volume: 0.75
       options:
         addTokenWidth: false
-        anchor: "0.5"
+        anchor: '0.5'
         contrast: 0
         delay: 0
         elevation: 1000
@@ -179,7 +179,7 @@ flags:
         saturate: 0
         size: 1
         tint: true
-        tintColor: "#e39816"
+        tintColor: '#e39816'
         zIndex: 1
     isEnabled: true
     isCustomized: true
@@ -187,7 +187,7 @@ flags:
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: "12.324"
+  coreVersion: '12.324'
   systemId: pf2e
   systemVersion: 6.0.0-beta2
   createdTime: 1717059374873
@@ -195,4 +195,5 @@ _stats:
   lastModifiedBy: 5113qwSSgskqtmtx
 _id: EC6Nyu0PgpNJSbNH
 sort: 0
-_key: "!items!EC6Nyu0PgpNJSbNH"
+_key: '!items!EC6Nyu0PgpNJSbNH'
+

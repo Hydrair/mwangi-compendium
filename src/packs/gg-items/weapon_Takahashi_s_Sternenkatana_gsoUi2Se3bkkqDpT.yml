@@ -3,7 +3,7 @@ type: weapon
 effects: []
 system:
   description:
-    gm: ""
+    gm: ''
     value: >-
       <p>Das Katana ist an deine Seele gebunden und du kannst es bei Verlust
       wieder aus dem Himmel beschwören.</p><hr
@@ -41,7 +41,7 @@ system:
         @Template[type:burst|distance:10] vom Treffer werden zum Riss 5 Fuß
         gezogen und sind, solange sie in dem Feld stehen, gegen jeden Angriff
         @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.
-      title: "{item|name}"
+      title: '{item|name}'
       outcome:
         - criticalSuccess
   slug: null
@@ -57,8 +57,8 @@ system:
       - versatile-p
     rarity: unique
   publication:
-    title: ""
-    authors: ""
+    title: ''
+    authors: ''
     license: OGL
     remaster: false
   level:
@@ -89,7 +89,7 @@ system:
       img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
       data:
         description:
-          value: ""
+          value: ''
     misidentified: {}
   usage:
     value: held-in-one-hand
@@ -108,7 +108,7 @@ system:
     value: 0
   range: null
   reload:
-    value: "1"
+    value: '1'
   runes:
     potency: 1
     striking: 1
@@ -117,17 +117,17 @@ system:
   specific: null
   subitems: []
   property1:
-    value: " "
+    value: ' '
     dice: 0
-    die: ""
-    damageType: ""
+    die: ''
+    damageType: ''
     critDice: 0
-    critDie: ""
-    critDamage: ""
-    critDamageType: ""
-    strikeConditionType: ""
+    critDie: ''
+    critDamage: ''
+    critDamageType: ''
+    strikeConditionType: ''
     strikeConditionValue: null
-    criticalConditionType: ""
+    criticalConditionType: ''
     criticalConditionValue: null
 img: modules/mwangi-compendium/img/katana.jpg
 folder: dCSAQ1kT5OMZKoKN
@@ -138,12 +138,12 @@ flags:
   exportSource:
     world: test
     system: pf2e
-    coreVersion: "12.324"
+    coreVersion: '12.324'
     systemVersion: 6.0.0-beta2
 _stats:
   compendiumSource: null
   duplicateSource: null
-  coreVersion: "12.324"
+  coreVersion: '12.324'
   systemId: pf2e
   systemVersion: 6.0.0-beta2
   createdTime: 1717059384016
@@ -151,4 +151,5 @@ _stats:
   lastModifiedBy: 5113qwSSgskqtmtx
 _id: gsoUi2Se3bkkqDpT
 sort: 0
-_key: "!items!gsoUi2Se3bkkqDpT"
+_key: '!items!gsoUi2Se3bkkqDpT'
+

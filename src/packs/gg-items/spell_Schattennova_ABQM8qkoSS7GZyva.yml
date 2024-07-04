@@ -1,0 +1,86 @@
+img: modules/mwangi-compendium/img/schattennova.png
+name: Schattennova
+system:
+  description:
+    gm: ""
+    value: >-
+      <p>Die Dunkelheit verdichtet sich und fügt Gegnern 4d6+10 void Schaden zu.</p>
+  rules: []
+  slug: schattennova
+  _migration:
+    version: 0.926
+    lastMigration: null
+    previous: null
+  traits:
+    otherTags: []
+    value:
+      - manipulate
+      - void
+    rarity: common
+    traditions:
+      - arcane
+      - occult
+  publication:
+    title: Pathfinder Player Core
+    authors: ""
+    license: ORC
+    remaster: true
+  level:
+    value: 1
+  requirements: ""
+  target:
+    value: ""
+  range:
+    value: 60 feet
+  area:
+    type: burst
+    value: 10
+  time:
+    value: "2"
+  duration:
+    value: ""
+    sustained: false
+  damage:
+    "0":
+      applyMod: false
+      category: null
+      formula: 4d6+10
+      kinds:
+        - damage
+      materials: []
+      type: void
+  defense:
+    save:
+      basic: true
+      statistic: reflex
+  cost:
+    value: ""
+  location:
+    value: null
+  counteraction: false
+  heightening:
+    damage:
+      "0": 2d6
+    interval: 1
+    type: interval
+type: spell
+flags:
+  core:
+    sourceId: Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd
+effects: []
+_stats:
+  compendiumSource: Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd
+  duplicateSource: null
+  coreVersion: "12.324"
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1720093190514
+  modifiedTime: 1720093190514
+  lastModifiedBy: 5113qwSSgskqtmtx
+folder: JKTZIpfMeoGxtwTG
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
+_id: ABQM8qkoSS7GZyva
+sort: 0
+_key: "!items!ABQM8qkoSS7GZyva"
