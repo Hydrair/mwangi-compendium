@@ -1,65 +1,67 @@
-img: modules/mwangi-compendium/img/solariswerfer.png
-name: Solariswerfer
+name: Schattenbogen
+type: weapon
+effects: []
 system:
   description:
-    gm: ''
+    gm: ""
     value: >-
-      <p>This <em>+1 striking flintlock musket</em> features multiple triangular
-      panels that can be folded out of the stock, like the petals of a tigridia
-      flower, that collect sunlight and feed it into the spark gun's core. All
-      damage dealt by a <em>solar shellflower</em> is fire
-      damage.</p><p><strong>Activate</strong> <span
-      class="action-glyph">1</span> Interact</p><p><strong>Frequency</strong>
-      once per day (but see below)</p><hr /><p><strong>Effect</strong> One of
-      the panels from the <em>solar shellflower</em> detaches and unfurls into a
-      tigridia-shaped construct of flame. For the next 1 minute, whenever you
-      Strike an enemy with the <em>solar shellflower</em>, the construct fires a
-      smaller jet of fire that automatically hits the target, dealing
-      @Damage[3d4[persistent,fire]]{3d4 additional persistent fire damage} or
-      twice that on a critical hit. The <em>solar shellflower</em> usually
-      requires a full day to replenish enough solar energy to recharge this
-      Activation, but if used in an environment with especially strong sunlight,
-      such as in a desert, cliff above the clouds, or near the summer solstice,
-      it can recharge in 1 hour
-      instead.</p><p>@UUID[Compendium.mwangi-compendium.gg-items.Item.LowFGbFFs5HExKt1]</p><p></p><p></p>
+      <p>Dieser Bogen entsprang dem dunklen Inneren von Sorens schwarzem
+      Herz.</p><hr
+      /><h3>@UUID[Compendium.mwangi-compendium.gg-items.Item.nrNo2pl32GZ6ccW0]</h3><p><strong>Activate</strong>
+      <span class="action-glyph">2</span> Interact</p><p><strong>Frequency
+      </strong>Einmal pro Tag</p><p><strong>Effect </strong>Beim Treffer
+      verdichtet sich die Dunkelheit im Ziel und explodiert in einer
+      Schattenexplosion. Alle Kreaturen in einem
+      @Template[type:burst|distance:10] erleiden <span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">@Damage[(4d6+10)[void]]
+      Schaden.</span></p><hr /><h3>Dunkler
+      Befehl</h3><p><strong>Activate</strong> <span
+      class="action-glyph">4</span> Free Action</p><p><strong>Frequency
+      </strong>Einmal pro Tag</p><p><strong>Effect </strong>Bei einem kritischen
+      Treffer wird das Ziel von Dunkelheit besessen. Der Träger dieser Waffe
+      befiehlt dem Ziel ein
+      @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command}. Dieser
+      Check ist immer ein Fehlschlag.</p>
   rules:
     - key: Note
-      title: '{item|name}'
       selector: damage
       text: >-
-        Bei einem kritischen Treffer wird das Ziel durchbohrt. Führe einen
-        Angriff auf ein weiteres Ziel dahinter aus.
+        Bei einem kritischen Treffer wird das Ziel von Dunkelheit besessen. Der
+        Träger dieser Waffe befiehlt dem Ziel ein
+        @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command}. Dieser
+        Check ist immer ein Fehlschlag.
+      title: "{item|name}"
       outcome:
         - criticalSuccess
-  slug: solar-shellflower
+  slug: null
   _migration:
     version: 0.926
     lastMigration: null
-    previous: null
   traits:
     otherTags: []
     value:
-      - concussive
-      - fatal-d10
+      - artifact
+      - deadly-d8
     rarity: unique
   publication:
-    title: Pathfinder Treasure Vault
-    authors: ''
+    title: ""
+    authors: ""
     license: OGL
     remaster: false
   level:
-    value: 5
+    value: 10
   quantity: 1
-  baseItem: flintlock-musket
+  baseItem: shortbow
   bulk:
-    value: 1
+    value: 0
   hp:
     value: 0
     max: 0
   hardness: 0
   price:
-    value:
-      gp: 160
+    value: {}
   equipped:
     carryType: worn
     invested: null
@@ -72,90 +74,91 @@ system:
   identification:
     status: identified
     unidentified:
-      name: Unusual Flintlock Musket
+      name: Unusual Weapon
       img: systems/pf2e/icons/unidentified_item_icons/weapon.webp
       data:
         description:
-          value: ''
+          value: ""
     misidentified: {}
   usage:
     value: held-in-two-hands
-  category: simple
-  group: firearm
+  category: martial
+  group: bow
   bonus:
     value: 0
   damage:
-    dice: 1
-    die: d6
-    damageType: fire
+    dice: 2
+    die: d8
+    damageType: piercing
     persistent: null
   bonusDamage:
     value: 0
   splashDamage:
     value: 0
-  range: 90
+  range: 60
   reload:
-    value: '1'
+    value: "1"
   runes:
-    potency: 1
-    striking: 1
+    potency: 0
+    striking: 0
     property: []
-  specific:
-    material:
-      grade: null
-      type: null
-    runes:
-      potency: 1
-      property: []
-      striking: 1
+  specific: null
   subitems: []
   property1:
-    value: ''
-    dice: 0
-    die: ''
-    damageType: ''
+    value: " "
+    dice: 3
+    die: ""
+    damageType: void
     critDice: 0
-    critDie: ''
-    critDamage: ''
-    critDamageType: ''
-    strikeConditionType: ''
+    critDie: ""
+    critDamage: ""
+    critDamageType: ""
+    strikeConditionType: ""
     strikeConditionValue: null
-    criticalConditionType: ''
+    criticalConditionType: ""
     criticalConditionValue: null
-type: weapon
+  selectedAmmoId: prVPSK8dvsXSB4tu
+img: modules/mwangi-compendium/img/schattenbogen.jpg
+folder: JKTZIpfMeoGxtwTG
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
 flags:
-  core:
-    sourceId: Compendium.pf2e.equipment-srd.Item.mf5eeIdKjfSZ0K3p
+  exportSource:
+    world: test
+    system: pf2e
+    coreVersion: "12.324"
+    systemVersion: 6.0.0-beta2
   autoanimations:
-    id: 25afce43-b49e-453c-8a21-7b3d9ebd51d8
-    label: Solariswerfer
+    id: c9803f56-4ce9-41ba-a48d-8cc9521ef486
+    label: Schattenbogen
     levels3d:
       type: explosion
       data:
-        color01: '#FFFFFF'
-        color02: '#FFFFFF'
+        color01: "#FFFFFF"
+        color02: "#FFFFFF"
         spritePath: modules/levels-3d-preview/assets/particles/dust.png
       sound:
         enable: false
       secondary:
         enable: false
         data:
-          color01: '#FFFFFF'
-          color02: '#FFFFFF'
+          color01: "#FFFFFF"
+          color02: "#FFFFFF"
           spritePath: modules/levels-3d-preview/assets/particles/dust.png
     macro:
       enable: false
-      playWhen: '0'
+      playWhen: "0"
     menu: range
     primary:
       video:
         dbSection: range
         menuType: weapon
-        animation: lasershot
-        variant: '01'
-        color: red
+        animation: arrow
+        variant: regular
+        color: regular
         enableCustom: false
-        customPath: ''
+        customPath: ""
       sound:
         enable: false
         delay: 0
@@ -164,7 +167,7 @@ flags:
         startTime: 0
         volume: 0.75
       options:
-        contrast: 0
+        contrast: 0.32
         delay: 0
         elevation: 1000
         isReturning: false
@@ -175,19 +178,20 @@ flags:
         repeat: 1
         repeatDelay: 250
         saturate: 0
-        tint: false
-        tintColor: '#FFFFFF'
+        tint: true
+        tintColor: "#5e0599"
         zIndex: 1
+        saturation: -0.42
     secondary:
       enable: false
       video:
         dbSection: static
         menuType: spell
         animation: curewounds
-        variant: '01'
+        variant: "01"
         color: blue
         enableCustom: false
-        customPath: ''
+        customPath: ""
       sound:
         enable: false
         delay: 0
@@ -197,7 +201,7 @@ flags:
         volume: 0.75
       options:
         addTokenWidth: false
-        anchor: '0.5'
+        anchor: "0.5"
         contrast: 0
         delay: 0
         elevation: 1000
@@ -212,7 +216,7 @@ flags:
         saturate: 0
         size: 1.5
         tint: false
-        tintColor: '#FFFFFF'
+        tintColor: "#FFFFFF"
         zIndex: 1
     soundOnly:
       sound:
@@ -228,10 +232,10 @@ flags:
         dbSection: static
         menuType: spell
         animation: curewounds
-        variant: '01'
+        variant: "01"
         color: blue
         enableCustom: false
-        customPath: ''
+        customPath: ""
       sound:
         enable: false
         delay: 0
@@ -241,7 +245,7 @@ flags:
         volume: 0.75
       options:
         addTokenWidth: false
-        anchor: '0.5'
+        anchor: "0.5"
         contrast: 0
         delay: 0
         elevation: 1000
@@ -256,7 +260,7 @@ flags:
         saturate: 0
         size: 1
         tint: false
-        tintColor: '#FFFFFF'
+        tintColor: "#FFFFFF"
         zIndex: 1
     target:
       enable: false
@@ -264,10 +268,10 @@ flags:
         dbSection: static
         menuType: spell
         animation: curewounds
-        variant: '01'
+        variant: "01"
         color: blue
         enableCustom: false
-        customPath: ''
+        customPath: ""
       sound:
         enable: false
         delay: 0
@@ -277,7 +281,7 @@ flags:
         volume: 0.75
       options:
         addTokenWidth: false
-        anchor: '0.5'
+        anchor: "0.5"
         contrast: 0
         delay: 0
         elevation: 1000
@@ -292,7 +296,7 @@ flags:
         saturate: 0
         size: 1
         tint: false
-        tintColor: '#FFFFFF'
+        tintColor: "#FFFFFF"
         unbindAlpha: false
         unbindVisibility: false
         zIndex: 1
@@ -300,21 +304,15 @@ flags:
     isCustomized: true
     fromAmmo: false
     version: 5
-effects: []
 _stats:
-  compendiumSource: Compendium.pf2e.equipment-srd.Item.mf5eeIdKjfSZ0K3p
+  compendiumSource: null
   duplicateSource: null
-  coreVersion: '12.324'
+  coreVersion: "12.324"
   systemId: pf2e
   systemVersion: 6.0.0-beta2
-  createdTime: 1717079319935
-  modifiedTime: 1720096824231
+  createdTime: 1720096806789
+  modifiedTime: 1720096806789
   lastModifiedBy: 5113qwSSgskqtmtx
-folder: 3vjpJnAgS0zSVVMr
-ownership:
-  default: 0
-  5113qwSSgskqtmtx: 3
-_id: q64Ph0mnWZtPLoUj
+_id: PkhPFsm6FW5dKVBp
 sort: 0
-_key: '!items!q64Ph0mnWZtPLoUj'
-
+_key: "!items!PkhPFsm6FW5dKVBp"
