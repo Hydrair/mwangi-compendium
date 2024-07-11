@@ -33,12 +33,9 @@ system:
   rules:
     - key: Note
       selector: damage
-      text: >-
-        Bei einem kritischen Treffer entsteht ein kleiner Riss im
-        Raum-Zeit-Gefüge und alle Ziele in einem
-        @Template[type:burst|distance:10] vom Treffer werden zum Riss 5 Fuß
-        gezogen und sind, solange sie in dem Feld stehen, gegen jeden Angriff
-        @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.
+      text: >
+        Der Träger kann sich bis zu 15 Fuß teleportieren. Das Ziel muss im
+        Schatten liegen.
       title: '{item|name}'
       outcome:
         - criticalSuccess
@@ -137,6 +134,198 @@ flags:
     system: pf2e
     coreVersion: '12.324'
     systemVersion: 6.0.0-beta2
+  autoanimations:
+    id: b1d89b7a-d3f4-4fd2-8b41-8b2242325c77
+    label: Umbralklingen
+    levels3d:
+      type: explosion
+      data:
+        color01: '#FFFFFF'
+        color02: '#FFFFFF'
+        spritePath: modules/levels-3d-preview/assets/particles/dust.png
+      sound:
+        enable: false
+      secondary:
+        enable: false
+        data:
+          color01: '#FFFFFF'
+          color02: '#FFFFFF'
+          spritePath: modules/levels-3d-preview/assets/particles/dust.png
+    macro:
+      enable: false
+      playWhen: '0'
+    meleeSwitch:
+      video:
+        dbSection: range
+        menuType: weapon
+        animation: arrow
+        variant: regular
+        color: regular
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        detect: automatic
+        range: 2
+        returning: false
+        switchType: 'on'
+    menu: melee
+    primary:
+      video:
+        dbSection: melee
+        menuType: weapon
+        animation: dagger
+        variant: '01'
+        color: white
+        enableCustom: false
+        customPath: ''
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        contrast: 0
+        delay: 0
+        elevation: 1000
+        isWait: false
+        opacity: 1
+        playbackRate: 1
+        repeat: 1
+        repeatDelay: 250
+        saturate: 0
+        size: 1
+        tint: true
+        tintColor: '#390a80'
+        zIndex: 1
+    secondary:
+      enable: false
+      video:
+        dbSection: static
+        menuType: spell
+        animation: curewounds
+        variant: '01'
+        color: blue
+        enableCustom: false
+        customPath: ''
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        addTokenWidth: false
+        anchor: '0.5'
+        contrast: 0
+        delay: 0
+        elevation: 1000
+        fadeIn: 250
+        fadeOut: 500
+        isMasked: false
+        isRadius: true
+        isWait: false
+        opacity: 1
+        repeat: 1
+        repeatDelay: 250
+        saturate: 0
+        size: 1.5
+        tint: false
+        tintColor: '#FFFFFF'
+        zIndex: 1
+    soundOnly:
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+    source:
+      enable: false
+      video:
+        dbSection: static
+        menuType: spell
+        animation: curewounds
+        variant: '01'
+        color: blue
+        enableCustom: false
+        customPath: ''
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        addTokenWidth: false
+        anchor: '0.5'
+        contrast: 0
+        delay: 0
+        elevation: 1000
+        fadeIn: 250
+        fadeOut: 500
+        isMasked: false
+        isRadius: false
+        isWait: true
+        opacity: 1
+        repeat: 1
+        repeatDelay: 250
+        saturate: 0
+        size: 1
+        tint: false
+        tintColor: '#FFFFFF'
+        zIndex: 1
+    target:
+      enable: false
+      video:
+        dbSection: static
+        menuType: spell
+        animation: curewounds
+        variant: '01'
+        color: blue
+        enableCustom: false
+        customPath: ''
+      sound:
+        enable: false
+        delay: 0
+        repeat: 1
+        repeatDelay: 250
+        startTime: 0
+        volume: 0.75
+      options:
+        addTokenWidth: false
+        anchor: '0.5'
+        contrast: 0
+        delay: 0
+        elevation: 1000
+        fadeIn: 250
+        fadeOut: 500
+        isMasked: false
+        isRadius: false
+        opacity: 1
+        persistent: false
+        repeat: 1
+        repeatDelay: 250
+        saturate: 0
+        size: 1
+        tint: false
+        tintColor: '#FFFFFF'
+        unbindAlpha: false
+        unbindVisibility: false
+        zIndex: 1
+    isEnabled: true
+    isCustomized: true
+    fromAmmo: false
+    version: 5
 _stats:
   compendiumSource: null
   duplicateSource: null
@@ -144,7 +333,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.0.0-beta2
   createdTime: 1720705785058
-  modifiedTime: 1720705785079
+  modifiedTime: 1720706531124
   lastModifiedBy: 5113qwSSgskqtmtx
 _id: QeuejrAKrweaAoCW
 sort: 100000
