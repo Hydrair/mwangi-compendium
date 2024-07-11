@@ -1,0 +1,68 @@
+img: systems/pf2e/icons/conditions/concealed.webp
+name: Concealed (Schattenschleier)
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>You are difficult for one or more creatures to see due to thick fog or
+      some other obscuring feature. You can be concealed to some creatures but
+      not others. While concealed, you can still be
+      @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observed}, but
+      you're tougher to target. A creature that you're concealed from must
+      succeed at a @Check[type:flat|showDC:all|dc:10] when targeting you with an
+      attack, spell, or other effect. If the check fails, you aren't affected.
+      Area effects aren't subject to this flat check.</p>
+  rules: []
+  slug: concealed
+  _migration:
+    version: 0.926
+    lastMigration: null
+    previous: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: Pathfinder Player Core
+    authors: ''
+    license: ORC
+    remaster: true
+  group: senses
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    perpetual: false
+    text: ''
+  value:
+    isValued: false
+    value: null
+  references:
+    children: []
+    overrides: []
+    overriddenBy: []
+    immunityFrom: []
+  overrides: []
+  active: false
+  removable: false
+type: condition
+flags:
+  core:
+    sourceId: Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W
+effects: []
+_stats:
+  compendiumSource: Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W
+  duplicateSource: null
+  coreVersion: '12.324'
+  systemId: pf2e
+  systemVersion: 6.0.0-beta2
+  createdTime: 1720705410439
+  modifiedTime: 1720705410439
+  lastModifiedBy: 5113qwSSgskqtmtx
+folder: Z5ZXULtuGLOvHs1q
+ownership:
+  default: 0
+  5113qwSSgskqtmtx: 3
+_id: X6fF3vj1YDLRJgpI
+sort: 0
+_key: '!items!X6fF3vj1YDLRJgpI'
+

@@ -1,40 +1,35 @@
-name: Takahashi´s Sternenkatana
+name: Umbralklingen
 type: weapon
 effects: []
 system:
   description:
     gm: ''
     value: >-
-      <p>Das Katana ist an deine Seele gebunden und du kannst es bei Verlust
-      wieder aus dem Himmel beschwören.</p><hr
-      /><h3>@UUID[Compendium.mwangi-compendium.gg-items.Item.FGQthNrlKTAGgfDM]</h3><p><strong>Activate</strong>
+      <p><span style="font-family:Roboto, sans-serif">Diese Dolche entsprangen
+      dem dunklen Inneren von Sorens schwarzem Herz.</span></p><hr
+      /><h3>@UUID[Compendium.mwangi-compendium.gg-items.Item.y3vjIU8XoqXKPt5m]</h3><p><strong>Activate</strong>
       <span class="action-glyph">2</span> Interact</p><p><strong>Frequency
-      </strong>Einmal pro Tag</p><p><strong>Effect </strong>Alle Kreaturen in
-      einem @Template[type:cone|distance:30] und die du bestimmst, werden vom
-      Licht der Waffe geblendet und versuchen einen
-      @Check[type:reflex|dc:29|name:Sternenschimmer] Rettungswurf.</p><hr
-      /><p><strong>Critical Success</strong> Nichts
-      passiert.</p><p><strong>Success</strong> Die Kreaturen werden
-      @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} bis
-      zum Ende deiner nächsten Runde.</p><p><strong>Failure</strong> Die
-      Kreaturen werden
-      @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} bis
-      zum Ende deiner nächsten Runde.</p><p><strong>Critical Failure</strong>
-      Die Kreaturen werden
-      @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} bis
-      zum Ende deiner nächsten Runde, nehmen <span style="font-family:system-ui,
-      -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Apple Color
-      Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto
-      Color Emoji', Inter">@Damage[(3d6)[vitality]] Schaden</span> und du wirst
-      @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}.</p><hr
-      /><h3>Sternenriss</h3><p><strong>Activate</strong> <span
+      </strong>Einmal pro Tag</p><p><strong>Effect </strong>Der Träger hüllt
+      sich in einen undurchdringlichen Schleier aus Schatten. <span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">Der Träger erhält für
+      </span>[[/r 1d4]]{1d4}
+      @UUID[Compendium.mwangi-compendium.gg-items.Item.X6fF3vj1YDLRJgpI]<span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter"> und Gegner müssen einen
+      </span>@Check[type:flat|showDC:all|dc:10]<span
+      style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter"> machen bei Angriffen
+      gegen ihn. Während dieser Zeit ist der Träger immun gegen positiv basierte
+      Angriffe und Effekte.</span></p><hr
+      /><h3>Schattenschritt</h3><p><strong>Activate</strong> <span
       class="action-glyph">4</span> Free Action</p><p><strong>Frequency
       </strong>Einmal pro Tag (unter Sternenhimmel unbegrenzt
-      einsetzbar)</p><p><strong>Effect </strong>Bei einem kritischen Treffer
-      entsteht ein kleiner Riss im Raum-Zeit-Gefüge und alle Ziele in einem
-      @Template[type:burst|distance:10] vom Treffer werden zum Riss 5 Fuß
-      gezogen und sind, solange sie in dem Feld stehen, gegen jeden Angriff
-      @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}.</p>
+      einsetzbar)</p><p><strong>Effect </strong>Der Träger kann sich bis zu 15
+      Fuß teleportieren. Das Ziel muss im Schatten liegen.</p>
   rules:
     - key: Note
       selector: damage
@@ -56,7 +51,6 @@ system:
     value:
       - artifact
       - deadly-d10
-      - two-hand-d10
       - versatile-p
     rarity: unique
   publication:
@@ -67,7 +61,7 @@ system:
   level:
     value: 10
   quantity: 1
-  baseItem: katana
+  baseItem: dagger
   bulk:
     value: 0
   hp:
@@ -101,8 +95,8 @@ system:
   bonus:
     value: 0
   damage:
-    dice: 1
-    die: d8
+    dice: 2
+    die: d10
     damageType: slashing
     persistent: null
   bonusDamage:
@@ -113,17 +107,17 @@ system:
   reload:
     value: '1'
   runes:
-    potency: 1
-    striking: 1
+    potency: 0
+    striking: 0
     property:
       - crushing
   specific: null
   subitems: []
   property1:
     value: ' '
-    dice: 0
+    dice: 3
     die: ''
-    damageType: ''
+    damageType: void
     critDice: 0
     critDie: ''
     critDamage: ''
@@ -132,8 +126,8 @@ system:
     strikeConditionValue: null
     criticalConditionType: ''
     criticalConditionValue: null
-img: modules/mwangi-compendium/img/katana.jpg
-folder: dCSAQ1kT5OMZKoKN
+img: modules/mwangi-compendium/img/umbralklingen.png
+folder: Z5ZXULtuGLOvHs1q
 ownership:
   default: 0
   5113qwSSgskqtmtx: 3
@@ -149,10 +143,10 @@ _stats:
   coreVersion: '12.324'
   systemId: pf2e
   systemVersion: 6.0.0-beta2
-  createdTime: 1717059384016
-  modifiedTime: 1720704891428
+  createdTime: 1720705785058
+  modifiedTime: 1720705785079
   lastModifiedBy: 5113qwSSgskqtmtx
-_id: gsoUi2Se3bkkqDpT
-sort: 0
-_key: '!items!gsoUi2Se3bkkqDpT'
+_id: QeuejrAKrweaAoCW
+sort: 100000
+_key: '!items!QeuejrAKrweaAoCW'
 
