@@ -1,0 +1,66 @@
+folder: PWHLQdCayplTrOr8
+name: 'Favored Quarry: Reroll'
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:Roboto, sans-serif">While this effect is
+      active, you gain a slight intuitive sense of the target’s movements,
+      allowing you to re-roll one missed attack against them during the duration
+      (you must take the second result)</span></p>
+  rules:
+    - key: RollTwice
+      keep: higher
+      selector: attack-roll
+      removeAfterRoll: if-enabled
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.4.1
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: 1
+    unit: minutes
+    expiry: turn-start
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+img: modules/mwangi-compendium/img/favoredQuarry.png
+sort: 0
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: Item.IgDlIW5YgB3pnWDg
+  duplicateSource: Item.IgDlIW5YgB3pnWDg
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413650995
+  modifiedTime: 1728488646315
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_id: v3KTaf56C4tN6ACk
+_key: '!items!v3KTaf56C4tN6ACk'
+

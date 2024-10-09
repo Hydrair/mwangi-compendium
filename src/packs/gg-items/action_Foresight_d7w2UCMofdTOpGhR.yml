@@ -1,0 +1,57 @@
+folder: rpeZWhbwfSY5tPlc
+name: Foresight
+type: action
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:Roboto, sans-serif">You can invoke the relic's
+      power to gain temporary insight into the future. When you use this
+      ability, you can reroll any one d20 roll (attack roll, saving throw, or
+      skill check) made within the next 10 minutes, taking the higher result.
+      You must decide to reroll after the original roll but before the outcome
+      is determined.</span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  actionType:
+    value: free
+  category: null
+  actions:
+    value: null
+  deathNote: false
+  frequency:
+    max: 1
+    per: day
+  selfEffect:
+    uuid: Compendium.mwangi-compendium.gg-items.Item.TriHeDTAroKuSIXy
+    name: Foresight
+_id: d7w2UCMofdTOpGhR
+img: modules/mwangi-compendium/img/foresight.png
+sort: 0
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413655330
+  modifiedTime: 1728488723251
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!d7w2UCMofdTOpGhR'
+

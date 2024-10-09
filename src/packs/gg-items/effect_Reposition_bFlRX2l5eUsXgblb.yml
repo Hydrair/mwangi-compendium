@@ -1,0 +1,67 @@
+folder: 4JWkPNB7sX0EcNwm
+name: Reposition
+type: effect
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe
+      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
+      Symbol', sans-serif, 'Noto Color Emoji', Inter">You can use your reaction
+      to immediately make a Stride action (move up to your Speed) or take a Step
+      action. This movement does not trigger reactions. Additionally, after
+      moving, you gain a +1 status bonus to your next attack roll before the end
+      of your next turn, as you use the opening to reposition and counterattack
+      with precision.</span></p>
+  rules:
+    - key: FlatModifier
+      selector: attack-roll
+      value: 1
+      removeAfterRoll: true
+      type: circumstance
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  duration:
+    value: -1
+    unit: unlimited
+    expiry: null
+    sustained: false
+  start:
+    value: 0
+    initiative: null
+  tokenIcon:
+    show: true
+  badge: null
+  context: null
+  unidentified: false
+_id: bFlRX2l5eUsXgblb
+img: modules/mwangi-compendium/img/reposition.png
+sort: 0
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: Item.bFlRX2l5eUsXgblb
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413648224
+  modifiedTime: 1728489145568
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!bFlRX2l5eUsXgblb'
+

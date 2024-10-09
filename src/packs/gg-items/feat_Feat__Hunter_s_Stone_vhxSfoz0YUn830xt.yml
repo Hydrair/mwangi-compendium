@@ -1,0 +1,180 @@
+folder: PWHLQdCayplTrOr8
+name: 'Feat: Hunter''s Stone'
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <h3
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:1em
+      0px
+      0.5rem;padding:0px;font-weight:500;font-size:1.25em;border-bottom:none;color:rgb(25,
+      24, 19);font-family:Roboto,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Roboto, sans-serif"><strong>Tracking
+      Sense</strong></span></h3><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Activate</strong>
+      </span><span style="font-family:Pathfinder2eActions,
+      sans-serif">1</span><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter"> (One
+      action)</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Frequency</strong>
+      Once per hour</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Effect</strong>
+      </span>The Hunter’s Stone heightens your primal senses. You gain scent
+      (imprecise, 30 feet) for 10 minutes, allowing you to track and detect
+      creatures by smell. Additionally, during this time, you gain a +2 status
+      bonus to Survival checks to track any creature in natural environments
+      (such as forests, plains, or mountains).</p><hr
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:1px
+      solid var(--color-border-light-primary);border-bottom:1px solid
+      var(--color-border-light-highlight);color:rgb(25, 24,
+      19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      /><h3
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:1em
+      0px
+      0.5rem;padding:0px;font-weight:500;font-size:1.25em;border-bottom:none;color:rgb(25,
+      24, 19);font-family:Roboto,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Roboto, sans-serif"><strong>Silent
+      Predator</strong></span></h3><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:Roboto, sans-serif"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Passive</strong>
+      While wearing the Hunter’s Stone, your footsteps become unnaturally quiet
+      when you are moving through natural environments. You gain a +1 status
+      bonus to Stealth checks when attempting to move undetected in such areas,
+      and difficult terrain created by undergrowth or natural obstacles doesn’t
+      hinder your movement (you ignore difficult terrain caused by foliage or
+      natural debris).</span></p><hr
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:1px
+      solid var(--color-border-light-primary);border-bottom:1px solid
+      var(--color-border-light-highlight);color:rgb(25, 24,
+      19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      /><h3
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:1em
+      0px
+      0.5rem;padding:0px;font-weight:500;font-size:1.25em;border-bottom:none;color:rgb(25,
+      24, 19);font-family:Roboto,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:Roboto, sans-serif"><strong>Favored
+      Quarry</strong></span></h3><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Activate</strong>
+      </span><span style="font-family:Pathfinder2eActions,
+      sans-serif">4</span><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter"> (Free
+      action)</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Frequency</strong>
+      Once per day</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Effect</strong>
+      </span>The stone resonates with the presence of your Hunted Target. Once
+      per day, when attacking your Hunted Target, you can activate the stone
+      (Free Action) to grant yourself a +1 status bonus to damage rolls against
+      that target for 1 minute. While this effect is active, you gain a slight
+      intuitive sense of the target’s movements, allowing you to re-roll one
+      missed attack against them during the duration (you must take the second
+      result)</p>
+  rules:
+    - key: GrantItem
+      uuid: Compendium.mwangi-compendium.gg-items.Item.Y9wwREi3OkZwqWC6
+      allowDuplicate: false
+    - key: FlatModifier
+      label: Silent Predator
+      selector: stealth-check
+      value: 1
+    - key: GrantItem
+      uuid: Compendium.mwangi-compendium.gg-items.Item.HzpolyOe7LZaE82j
+      allowDuplicate: false
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.4.1
+  traits:
+    otherTags: []
+    value: []
+    rarity: common
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  category: bonus
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+  selfEffect:
+    uuid: Item.Rvtfmu8Ku0UjsmAG
+    name: Tracking Sense
+_id: vhxSfoz0YUn830xt
+img: modules/mwangi-compendium/img/huntersStone.png
+sort: 0
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413650995
+  modifiedTime: 1728489128499
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!vhxSfoz0YUn830xt'
+

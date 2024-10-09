@@ -1,0 +1,60 @@
+folder: itfDEbSWfLgHzYZg
+name: Concentration
+type: action
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\">Add a +1 status bonus to your next attack roll or spell DC for a spell with the </span>mental<span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"> trait.\_</span></p>"
+  rules:
+    - key: FlatModifier
+      selector:
+        - attack-roll
+        - spell-attack
+      value: 1
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.4.1
+  traits:
+    otherTags: []
+    value: []
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  actionType:
+    value: free
+  category: null
+  actions:
+    value: null
+  deathNote: false
+  frequency:
+    max: 1
+    per: PT1H
+  selfEffect:
+    uuid: Compendium.mwangi-compendium.gg-items.Item.6yS3f8au14xP4CDM
+    name: Concentration
+_id: 4sMuAPUKVE9CKH1v
+img: modules/mwangi-compendium/img/concentration.png
+sort: 0
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: Item.4sMuAPUKVE9CKH1v
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413658022
+  modifiedTime: 1728488695909
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!4sMuAPUKVE9CKH1v'
+

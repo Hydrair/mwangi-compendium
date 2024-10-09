@@ -1,0 +1,59 @@
+folder: rpeZWhbwfSY5tPlc
+name: Deal with the Ancestors
+type: action
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p><span style="font-family:Roboto, sans-serif">While wielding the Relic
+      of the Veiled Fates, the manifestation of your Oracle’s curse becomes more
+      intense but also more empowering. When your curse is active (moderate
+      stage or higher), you can once per day activate the relic as a Single
+      Action to gain a +1 status bonus to all saving throws for 1 minute.
+      Afterward, however, your curse worsens (as though you advanced another
+      stage, if applicable).</span></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value:
+      - cursebound
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  actionType:
+    value: action
+  category: null
+  actions:
+    value: 1
+  deathNote: false
+  frequency:
+    max: 1
+    per: day
+  selfEffect:
+    uuid: Compendium.mwangi-compendium.gg-items.Item.rtBRJW64sFVK3SOB
+    name: Deal with the Ancestors
+_id: vGju5zJBWZMUkDJ9
+img: modules/mwangi-compendium/img/dealWithAncestors.png
+sort: 0
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413655330
+  modifiedTime: 1728488709985
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!vGju5zJBWZMUkDJ9'
+

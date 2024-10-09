@@ -8,6 +8,7 @@ const yaml = true;
 const packs = await fs.readdir("./foundryImport");
 for (const pack of packs) {
   if (pack === ".gitattributes") continue;
+  if (pack === ".DS_Store") continue;
   console.log("Unpacking " + pack);
   const directory = `./src/packs/${pack}`;
   try {

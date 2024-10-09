@@ -1,0 +1,148 @@
+name: Relic of the Veiled Fates
+type: equipment
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The Relic of the Veiled Fates is a small, palm-sized artifact, crafted
+      from an intricate weave of translucent silk and silver thread, with a
+      polished, black obsidian center. It pulses faintly with an otherworldly
+      energy, often blurring slightly when looked at directly. This relic holds
+      echoes of divine knowledge, granting its bearer insight into hidden fates
+      and uncertain
+      outcomes.</p><p>@UUID[Compendium.mwangi-compendium.gg-items.Item.nAKezlxJkIdKWlfK]</p><hr
+      /><h3><span style="font-family:system-ui, -apple-system, 'system-ui',
+      'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe
+      UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Foresight</strong></span></h3><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Activate</strong>
+      </span><span class="action-glyph">4</span><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"> (Free action)</span></p><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Frequency</strong> Once per
+      day</span></p><p><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Effect</strong> </span>You can invoke the relic's power to
+      gain temporary insight into the future. When you use this ability, you can
+      reroll any one d20 roll (attack roll, saving throw, or skill check) made
+      within the next 10 minutes, taking the higher result. You must decide to
+      reroll after the original roll but before the outcome is
+      determined.</p><hr /><h3>Vision of Dual Fates</h3><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Activate</strong>
+      Passive</span></p><p><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Frequency</strong> Once per day</span></p><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Effect </strong></span>The
+      relic subtly shifts the flow of time around you, allowing you to glimpse a
+      fleeting vision of what might have been. Once per day, after failing a
+      saving throw, you gain a glimpse of the alternate outcome. You can choose
+      to "remember" the other possibility and adjust the results slightly:
+      reduce any damage you take by an amount equal to your Charisma modifier
+      (minimum 1). This cannot reduce damage below 1, but can lessen the
+      severity of the failure (such as taking reduced damage from a critical
+      hit).</p><hr /><h3><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Deal with the Ancestors</strong></span></h3><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Activate</strong>
+      </span><span class="action-glyph">1</span><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"> (One action)</span></p><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Frequency</strong> Once per
+      day</span></p><p><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Effect</strong> </span>While wielding the Relic of the
+      Veiled Fates, the manifestation of your Oracle’s curse becomes more
+      intense but also more empowering. When your curse is active (moderate
+      stage or higher), you can once per day activate the relic as a Single
+      Action to gain a +1 status bonus to all saving throws for 1 minute.
+      Afterward, however, your curse worsens (as though you advanced another
+      stage, if applicable).<br /></p>
+  rules: []
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.4.1
+  traits:
+    otherTags: []
+    value: []
+    rarity: uncommon
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 3
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0.1
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 60
+  equipped:
+    carryType: worn
+    invested: null
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Object
+      img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+      data:
+        description:
+          value: ''
+    misidentified: {}
+  usage:
+    value: held-in-one-hand
+  subitems: []
+_id: mONHhjgdbv7ZCNuU
+img: modules/mwangi-compendium/img/relicOfVeiledFates.png
+folder: hFKcIv6zlDBnUYou
+sort: 100000
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: Item.mONHhjgdbv7ZCNuU
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413655330
+  modifiedTime: 1728488900372
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!mONHhjgdbv7ZCNuU'
+

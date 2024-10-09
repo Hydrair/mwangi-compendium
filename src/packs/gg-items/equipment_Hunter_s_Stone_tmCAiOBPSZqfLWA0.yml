@@ -1,0 +1,132 @@
+name: Hunter’s Stone
+type: equipment
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>The Hunter’s Stone is a rugged piece of jade carved into the shape of
+      an arrowhead, hanging from a leather cord. Faint etchings of ancient
+      druidic symbols adorn the surface, glowing subtly when the wearer is deep
+      in the wilderness. This stone is imbued with primal magic, enhancing the
+      ranger’s ability to track and hunt prey while blending into natural
+      environments.</p><p>@UUID[Compendium.mwangi-compendium.gg-items.Item.vhxSfoz0YUn830xt]</p><hr
+      /><h3>Tracking Sense</h3><p><span style="font-family:system-ui,
+      -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji',
+      Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color
+      Emoji', Inter"><strong>Activate</strong> </span><span
+      class="action-glyph">1</span><span style="font-family:system-ui,
+      -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji',
+      Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color
+      Emoji', Inter"> (One action)</span></p><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Frequency</strong> Once per
+      hour</span></p><p><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Effect</strong> </span>The Hunter’s Stone heightens your
+      primal senses. You gain scent (imprecise, 30 feet) for 10 minutes,
+      allowing you to track and detect creatures by smell. Additionally, during
+      this time, you gain a +2 status bonus to Survival checks to track any
+      creature in natural environments (such as forests, plains, or
+      mountains).</p><hr /><h3>Silent Predator</h3><p><strong>Passive</strong>
+      While wearing the Hunter’s Stone, your footsteps become unnaturally quiet
+      when you are moving through natural environments. You gain a +1 status
+      bonus to Stealth checks when attempting to move undetected in such areas,
+      and difficult terrain created by undergrowth or natural obstacles doesn’t
+      hinder your movement (you ignore difficult terrain caused by foliage or
+      natural debris).</p><hr /><h3>Favored Quarry</h3><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Activate</strong>
+      </span><span class="action-glyph">4</span><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"> (Free action)</span></p><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Frequency</strong> Once per
+      day</span></p><p><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Effect</strong> </span>The stone resonates with the
+      presence of your Hunted Target. Once per day, when attacking your Hunted
+      Target, you can activate the stone (Free Action) to grant yourself a +1
+      status bonus to damage rolls against that target for 1 minute. While this
+      effect is active, you gain a slight intuitive sense of the target’s
+      movements, allowing you to re-roll one missed attack against them during
+      the duration (you must take the second result)</p>
+  rules:
+    - key: GrantItem
+      uuid: Item.vhxSfoz0YUn830xt
+      allowDuplicate: false
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.4.1
+  traits:
+    otherTags: []
+    value: []
+    rarity: uncommon
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 3
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 65
+  equipped:
+    carryType: worn
+    invested: null
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Object
+      img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+      data:
+        description:
+          value: ''
+    misidentified: {}
+  usage:
+    value: wornnecklace
+  subitems: []
+_id: tmCAiOBPSZqfLWA0
+img: modules/mwangi-compendium/img/huntersStone.png
+folder: hFKcIv6zlDBnUYou
+sort: 300000
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413650995
+  modifiedTime: 1728488884901
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!tmCAiOBPSZqfLWA0'
+

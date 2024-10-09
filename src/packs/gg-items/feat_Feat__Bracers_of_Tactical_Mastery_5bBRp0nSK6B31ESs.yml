@@ -1,0 +1,197 @@
+folder: 4JWkPNB7sX0EcNwm
+name: 'Feat: Bracers of Tactical Mastery'
+type: feat
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <h3
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0px
+      0px
+      0.5rem;padding:0px;font-weight:500;font-size:1.25em;border-bottom:none;color:rgb(25,
+      24, 19);font-family:Roboto,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Reposition</strong></span></h3><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Activate</strong>
+      </span><span style="font-family:Pathfinder2eActions,
+      sans-serif">R</span><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter">
+      (Mental)</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Frequency</strong>
+      Once per hour</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Trigger</strong>
+      You are missed by a melee or ranged attack.</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Effect</strong>
+      You can use your reaction to immediately make a Stride action (move up to
+      your Speed) or take a Step action. This movement does not trigger
+      reactions. Additionally, after moving, you gain a +1 status bonus to your
+      next attack roll before the end of your next turn, as you use the opening
+      to reposition and counterattack with precision.</span></p><hr
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:1px
+      solid var(--color-border-light-primary);border-bottom:1px solid
+      var(--color-border-light-highlight);color:rgb(25, 24,
+      19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      /><h3
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:1em
+      0px
+      0.5rem;padding:0px;font-weight:500;font-size:1.25em;border-bottom:none;color:rgb(25,
+      24, 19);font-family:Roboto,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Battlefield
+      Commander</strong></span></h3><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Passive
+      </strong>The bracers enhance your awareness of your allies’ positions and
+      the flow of battle. You gain a +1 status bonus to your Armor Class (AC)
+      when adjacent to at least one ally and facing two or more enemies. This
+      bonus reflects your ability to work defensively while coordinating with
+      allies, using teamwork to outmaneuver opponents.</span></p><hr
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;border-right:none;border-left:none;border-image:initial;border-top:1px
+      solid var(--color-border-light-primary);border-bottom:1px solid
+      var(--color-border-light-highlight);color:rgb(25, 24,
+      19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"
+      /><h3
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:1em
+      0px
+      0.5rem;padding:0px;font-weight:500;font-size:1.25em;border-bottom:none;color:rgb(25,
+      24, 19);font-family:Roboto,
+      sans-serif;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;letter-spacing:normal;orphans:2;text-align:start;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Tactical
+      Precision</strong></span></h3><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Activate</strong>
+      </span><span style="font-family:Pathfinder2eActions,
+      sans-serif">R</span><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter">
+      (Mental)</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Frequency</strong>
+      Once per day</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Trigger</strong>
+      You miss an Attack of Opportunity.</span></p><p
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
+      0px;color:rgb(25, 24, 19);font-family:Roboto,
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong
+      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Effect
+      </strong>The bracers sharpen your ability to exploit openings in combat.
+      You can reroll the Attack of Opportunity roll if it misses. Additionally,
+      when you successfully hit with an attack of opportunity, you can push the
+      target 5 feet in a direction of your choice, potentially forcing them into
+      a more vulnerable position.</span></p>
+  rules:
+    - key: FlatModifier
+      selector: ac
+      value: 1
+      label: Battlefield Commander
+      type: circumstance
+    - key: Note
+      title: Battlefield Commander
+      text: ''
+      selector: ac
+    - key: GrantItem
+      uuid: Compendium.mwangi-compendium.gg-items.Item.D5dvLvFYhJguTdDH
+    - key: GrantItem
+      uuid: Compendium.mwangi-compendium.gg-items.Item.20LYCFNSSpIXCCow
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+  traits:
+    otherTags: []
+    value: []
+    rarity: common
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 1
+  category: bonus
+  onlyLevel1: false
+  maxTakable: 1
+  actionType:
+    value: passive
+  actions:
+    value: null
+  prerequisites:
+    value: []
+  location: null
+_id: 5bBRp0nSK6B31ESs
+img: modules/mwangi-compendium/img/bracersOfTacticalMastery.png
+sort: 0
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: Item.5bBRp0nSK6B31ESs
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413648224
+  modifiedTime: 1728488586998
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!5bBRp0nSK6B31ESs'
+

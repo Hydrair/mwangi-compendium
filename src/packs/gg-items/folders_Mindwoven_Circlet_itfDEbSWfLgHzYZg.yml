@@ -1,0 +1,20 @@
+name: Mindwoven Circlet
+sorting: a
+folder: NC84iqbq0481zRD0
+type: Item
+_id: itfDEbSWfLgHzYZg
+description: ''
+sort: 400000
+color: '#d872df'
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: null
+  modifiedTime: 1728413710504
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!folders!itfDEbSWfLgHzYZg'
+

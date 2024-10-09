@@ -1,0 +1,152 @@
+name: Bracers of Tactical Mastery
+type: equipment
+effects: []
+system:
+  description:
+    gm: ''
+    value: >-
+      <p>Worn by a fierce and disciplined fighter, the Bracers of Tactical
+      Mastery are finely crafted pieces of armor made from polished brass and
+      reinforced with enchanted, durable leather. Despite their small size, they
+      shimmer with an aura of precision and strategy. Intricate gears and cogs
+      are etched along their
+      edges.</p><p>@UUID[Compendium.mwangi-compendium.gg-items.Item.5bBRp0nSK6B31ESs]</p><hr
+      /><h3><span style="font-family:system-ui, -apple-system, 'system-ui',
+      'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe
+      UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter">Reposition</span></h3><p><span style="font-family:system-ui,
+      -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji',
+      Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color
+      Emoji', Inter"><strong>Activate</strong> </span><span
+      class="action-glyph">R</span><span style="font-family:system-ui,
+      -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji',
+      Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color
+      Emoji', Inter"> (Mental)</span></p><p><span style="font-family:system-ui,
+      -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji',
+      Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color
+      Emoji', Inter"><strong>Frequency</strong> Once per hour</span></p><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Trigger</strong> You are
+      missed by a melee or ranged attack.</span></p><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Effect</strong> You can use
+      your reaction to immediately make a Stride action (move up to your Speed)
+      or take a Step action. This movement does not trigger reactions.
+      Additionally, after moving, you gain a +1 status bonus to your next attack
+      roll before the end of your next turn, as you use the opening to
+      reposition and counterattack with precision.</span></p><hr /><h3><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter">Battlefield
+      Commander</span></h3><p><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Passive </strong>The bracers enhance your awareness of your
+      allies’ positions and the flow of battle. You gain a +1 status bonus to
+      your Armor Class (AC) when adjacent to at least one ally and facing two or
+      more enemies. This bonus reflects your ability to work defensively while
+      coordinating with allies, using teamwork to outmaneuver
+      opponents.</span></p><hr /><h3><span style="font-family:system-ui,
+      -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji',
+      Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color
+      Emoji', Inter">Tactical Precision</span></h3><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Activate</strong>
+      </span><span class="action-glyph">R</span><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"> (Mental)</span></p><p><span
+      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
+      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
+      sans-serif, 'Noto Color Emoji', Inter"><strong>Frequency</strong> Once per
+      day</span></p><p><span style="font-family:system-ui, -apple-system,
+      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
+      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji',
+      Inter"><strong>Trigger</strong> You miss an Attack of
+      Opportunity.</span></p><p><span style="font-family:system-ui,
+      -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji',
+      Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color
+      Emoji', Inter"><strong>Effect </strong>The bracers sharpen your ability to
+      exploit openings in combat. You can reroll the Attack of Opportunity roll
+      if it misses. Additionally, when you successfully hit with an attack of
+      opportunity, you can push the target 5 feet in a direction of your choice,
+      potentially forcing them into a more vulnerable position.</span></p>
+  rules:
+    - key: FlatModifier
+      label: Battlefield Commander
+      selector: ac
+      value: 1
+    - key: GrantItem
+      uuid: Item.v5IcyrafehJsRdpV
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.4.1
+  traits:
+    otherTags: []
+    value: []
+    rarity: uncommon
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 3
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 70
+  equipped:
+    carryType: worn
+    invested: null
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Object
+      img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+      data:
+        description:
+          value: ''
+    misidentified: {}
+  usage:
+    value: wornbracers
+  subitems: []
+_id: cTTUpeG0dYIUAiGE
+img: modules/mwangi-compendium/img/bracersOfTacticalMastery.png
+folder: hFKcIv6zlDBnUYou
+sort: 400000
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: Item.cTTUpeG0dYIUAiGE
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413648224
+  modifiedTime: 1728489033097
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!cTTUpeG0dYIUAiGE'
+

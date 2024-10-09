@@ -1,0 +1,77 @@
+name: Mindwoven Circlet
+type: equipment
+effects: []
+system:
+  description:
+    gm: ''
+    value: "<p><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\">The </span>Mindwoven Circlet <span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\">is a delicate headband made of interwoven strands of silver and gold, faintly glowing with a soft light that pulses in time with the wearer's thoughts. It has a crystalline gem in the center that shifts color depending on the psychic's emotions. Created by an ancient order of mind mages, it boosts the psychic's mental faculties and enhances their psychic powers.</span></p><p>@UUID[Compendium.mwangi-compendium.gg-items.Item.IRO68Bqk7SDip9Cz]</p><hr /><h3><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"><strong>Concentration</strong></span></h3><p><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"><strong>Activate</strong> </span><span class=\"action-glyph\">4</span><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"> (Free action)</span></p><p><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"><strong>Frequency</strong> Once per hour</span></p><p><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"><strong>Effect</strong> Add a +1 status bonus to your next attack roll or spell DC for a spell with the </span>mental<span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"> trait.\_</span></p><hr /><h3><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"><strong>Thought Invasion</strong></span></h3><p><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"><strong>Activate</strong> </span><span class=\"action-glyph\">1</span><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"> (one action)</span></p><p><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"><strong>Frequency</strong> Once per hour</span></p><p><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\"><strong>Effect</strong> You can cast @UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC] as a 2nd-level spell without expending a spell slot. This version of the spell allows you to probe deeper into the mind of the target with a heightened sense of clarity, granting you advantage on the initial check to read surface thoughts.</span></p><hr /><h3><span style=\"font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter\">Psychic Echo</span></h3><p>The circlet amplifies your psychic powers, allowing you to leave a subtle imprint of your mind in places you spend time. After spending at least 10 minutes in a location, you can create a psychic echo that lasts for 24 hours. While within 1 mile of that location, you can concentrate for 1 minute to view it as though you were physically present, perceiving everything in the area as if you were there. This effect doesn't extend to other senses (you can only see), and you cannot interact with anything. If the area has been altered since you left, you'll see its current state.</p>"
+  rules: []
+  slug: null
+  _migration:
+    version: 0.932
+    lastMigration: null
+    previous:
+      schema: 0.926
+      foundry: '12.331'
+      system: 6.4.1
+  traits:
+    otherTags: []
+    value: []
+    rarity: uncommon
+  publication:
+    title: ''
+    authors: ''
+    license: OGL
+    remaster: false
+  level:
+    value: 3
+  quantity: 1
+  baseItem: null
+  bulk:
+    value: 0
+  hp:
+    value: 0
+    max: 0
+  hardness: 0
+  price:
+    value:
+      gp: 55
+  equipped:
+    carryType: worn
+    invested: null
+  containerId: null
+  size: med
+  material:
+    type: null
+    grade: null
+  identification:
+    status: identified
+    unidentified:
+      name: Unusual Object
+      img: systems/pf2e/icons/unidentified_item_icons/adventuring_gear.webp
+      data:
+        description:
+          value: ''
+    misidentified: {}
+  usage:
+    value: wornheadwear
+  subitems: []
+_id: p4SFGgg2rHDjPcqT
+img: modules/mwangi-compendium/img/mindwovenCirclet.png
+folder: hFKcIv6zlDBnUYou
+sort: 200000
+ownership:
+  default: 0
+  6K5rT7hhNxLBEBA8: 3
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: pf2e
+  systemVersion: 6.4.1
+  createdTime: 1728413658022
+  modifiedTime: 1728488893154
+  lastModifiedBy: 6K5rT7hhNxLBEBA8
+_key: '!items!p4SFGgg2rHDjPcqT'
+
