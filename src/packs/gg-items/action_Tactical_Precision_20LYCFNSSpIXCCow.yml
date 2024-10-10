@@ -43,11 +43,7 @@ system:
       when you successfully hit with an attack of opportunity, you can push the
       target 5 feet in a direction of your choice, potentially forcing them into
       a more vulnerable position.</span></p>
-  rules:
-    - key: Note
-      title: '{item|name}'
-      selector: attack-roll
-      text: ''
+  rules: []
   slug: null
   _migration:
     version: 0.932
@@ -83,7 +79,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413648224
-  modifiedTime: 1728488607814
+  modifiedTime: 1728571832332
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!20LYCFNSSpIXCCow'
 

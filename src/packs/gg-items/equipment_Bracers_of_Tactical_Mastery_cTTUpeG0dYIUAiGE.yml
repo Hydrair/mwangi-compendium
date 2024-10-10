@@ -74,13 +74,7 @@ system:
       if it misses. Additionally, when you successfully hit with an attack of
       opportunity, you can push the target 5 feet in a direction of your choice,
       potentially forcing them into a more vulnerable position.</span></p>
-  rules:
-    - key: FlatModifier
-      label: Battlefield Commander
-      selector: ac
-      value: 1
-    - key: GrantItem
-      uuid: Item.v5IcyrafehJsRdpV
+  rules: []
   slug: null
   _migration:
     version: 0.932
@@ -146,7 +140,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413648224
-  modifiedTime: 1728489033097
+  modifiedTime: 1728571610184
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!cTTUpeG0dYIUAiGE'
 

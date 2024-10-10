@@ -139,15 +139,6 @@ system:
       target 5 feet in a direction of your choice, potentially forcing them into
       a more vulnerable position.</span></p>
   rules:
-    - key: FlatModifier
-      selector: ac
-      value: 1
-      label: Battlefield Commander
-      type: circumstance
-    - key: Note
-      title: Battlefield Commander
-      text: ''
-      selector: ac
     - key: GrantItem
       uuid: Compendium.mwangi-compendium.gg-items.Item.D5dvLvFYhJguTdDH
     - key: GrantItem
@@ -191,7 +182,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413648224
-  modifiedTime: 1728488586998
+  modifiedTime: 1728571820678
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!5bBRp0nSK6B31ESs'
 

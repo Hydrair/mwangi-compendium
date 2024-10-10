@@ -57,10 +57,7 @@ system:
       effect is active, you gain a slight intuitive sense of the target’s
       movements, allowing you to re-roll one missed attack against them during
       the duration (you must take the second result)</p>
-  rules:
-    - key: GrantItem
-      uuid: Item.vhxSfoz0YUn830xt
-      allowDuplicate: false
+  rules: []
   slug: null
   _migration:
     version: 0.932
@@ -126,7 +123,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413650995
-  modifiedTime: 1728488884901
+  modifiedTime: 1728571620457
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!tmCAiOBPSZqfLWA0'
 

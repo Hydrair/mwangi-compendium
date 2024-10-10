@@ -99,7 +99,7 @@ system:
   quantity: 1
   baseItem: null
   bulk:
-    value: 0.1
+    value: 0
   hp:
     value: 0
     max: 0
@@ -142,7 +142,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413655330
-  modifiedTime: 1728488900372
+  modifiedTime: 1728571738945
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!mONHhjgdbv7ZCNuU'
 
