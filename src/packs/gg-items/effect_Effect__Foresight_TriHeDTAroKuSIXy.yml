@@ -1,5 +1,5 @@
 folder: rpeZWhbwfSY5tPlc
-name: Foresight
+name: 'Effect: Foresight'
 type: effect
 effects: []
 system:
@@ -12,7 +12,19 @@ system:
       skill check) made within the next 10 minutes, taking the higher result.
       You must decide to reroll after the original roll but before the outcome
       is determined.</span></p>
-  rules: []
+  rules:
+    - key: Note
+      title: Foresight
+      selector:
+        - attack-roll
+        - saving-throw
+        - skill-check
+      text: >-
+        You can invoke the relic's power to gain temporary insight into the
+        future. When you use this ability, you can reroll any one d20 roll
+        (attack roll, saving throw, or skill check) made within the next 10
+        minutes, taking the higher result. You must decide to reroll after the
+        original roll but before the outcome is determined.
   slug: null
   _migration:
     version: 0.932
@@ -54,7 +66,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413655330
-  modifiedTime: 1728488727754
+  modifiedTime: 1728647795325
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!TriHeDTAroKuSIXy'
 

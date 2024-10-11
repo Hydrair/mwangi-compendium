@@ -5,35 +5,15 @@ system:
   description:
     gm: ''
     value: >-
-      <p><span style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe
-      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
-      Symbol', sans-serif, 'Noto Color Emoji', Inter"><strong
-      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Activate</strong>
-      </span><span style="font-family:Pathfinder2eActions,
-      sans-serif">1</span><span style="font-family:system-ui, -apple-system,
-      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
-      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter"> (One
-      action)</span></p><p
+      <p
       style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
       0px;color:rgb(25, 24, 19);font-family:Roboto,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
-      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
-      sans-serif, 'Noto Color Emoji', Inter"><strong
-      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Frequency</strong>
-      Once per hour</span></p><p
-      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Roboto,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
-      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
-      sans-serif, 'Noto Color Emoji', Inter"><strong
-      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Effect</strong>
-      </span>The Hunter’s Stone heightens your primal senses. You gain scent
-      (imprecise, 30 feet) for 10 minutes, allowing you to track and detect
-      creatures by smell. Additionally, during this time, you gain a +2 status
-      bonus to Survival checks to track any creature in natural environments
-      (such as forests, plains, or mountains).</p>
+      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start">The
+      Hunter’s Stone heightens your primal senses. You gain scent (imprecise, 30
+      feet) for 10 minutes, allowing you to track and detect creatures by smell.
+      Additionally, during this time, you gain a +2 status bonus to Survival
+      checks to track any creature in natural environments (such as forests,
+      plains, or mountains).</p>
   rules: []
   slug: null
   _migration:
@@ -62,7 +42,7 @@ system:
     per: PT1H
   selfEffect:
     uuid: Compendium.mwangi-compendium.gg-items.Item.Rvtfmu8Ku0UjsmAG
-    name: Tracking Sense
+    name: 'Effect: Tracking Sense'
 _id: HzpolyOe7LZaE82j
 img: modules/mwangi-compendium/img/trackingSense.png
 folder: PWHLQdCayplTrOr8
@@ -78,7 +58,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413650995
-  modifiedTime: 1728488739724
+  modifiedTime: 1728648084612
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!HzpolyOe7LZaE82j'
 

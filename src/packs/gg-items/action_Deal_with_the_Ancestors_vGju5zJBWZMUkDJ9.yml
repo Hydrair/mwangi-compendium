@@ -38,7 +38,7 @@ system:
     per: day
   selfEffect:
     uuid: Compendium.mwangi-compendium.gg-items.Item.rtBRJW64sFVK3SOB
-    name: Deal with the Ancestors
+    name: 'Effect: Deal with the Ancestors'
 _id: vGju5zJBWZMUkDJ9
 img: modules/mwangi-compendium/img/dealWithAncestors.png
 sort: 0
@@ -53,7 +53,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413655330
-  modifiedTime: 1728488709985
+  modifiedTime: 1728647973041
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!vGju5zJBWZMUkDJ9'
 

@@ -1,4 +1,4 @@
-name: Concentration
+name: 'Effect: Concentration'
 type: effect
 effects: []
 system:
@@ -60,7 +60,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413658022
-  modifiedTime: 1728488700313
+  modifiedTime: 1728647814726
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!6yS3f8au14xP4CDM'
 

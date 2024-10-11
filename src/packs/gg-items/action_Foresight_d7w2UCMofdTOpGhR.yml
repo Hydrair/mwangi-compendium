@@ -36,7 +36,7 @@ system:
     per: day
   selfEffect:
     uuid: Compendium.mwangi-compendium.gg-items.Item.TriHeDTAroKuSIXy
-    name: Foresight
+    name: 'Effect: Foresight'
 _id: d7w2UCMofdTOpGhR
 img: modules/mwangi-compendium/img/foresight.png
 sort: 0
@@ -51,7 +51,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413655330
-  modifiedTime: 1728488723251
+  modifiedTime: 1728647797484
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!d7w2UCMofdTOpGhR'
 

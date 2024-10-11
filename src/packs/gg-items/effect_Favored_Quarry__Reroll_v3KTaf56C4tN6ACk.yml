@@ -9,12 +9,20 @@ system:
       <p><span style="font-family:Roboto, sans-serif">While this effect is
       active, you gain a slight intuitive sense of the target’s movements,
       allowing you to re-roll one missed attack against them during the duration
-      (you must take the second result)</span></p>
+      (you must take the second result).</span></p>
   rules:
-    - key: RollTwice
-      keep: higher
+    - key: Note
+      title: Favored Quarry
       selector: attack-roll
-      removeAfterRoll: if-enabled
+      text: >-
+        You gain a slight intuitive sense of the target’s movements, allowing
+        you to re-roll one missed attack against them (you must take the second
+        result).
+      predicate:
+        - hunted-prey
+      outcome:
+        - failure
+        - criticalFailure
   slug: null
   _migration:
     version: 0.932
@@ -59,7 +67,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413650995
-  modifiedTime: 1728488646315
+  modifiedTime: 1728647436548
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _id: v3KTaf56C4tN6ACk
 _key: '!items!v3KTaf56C4tN6ACk'

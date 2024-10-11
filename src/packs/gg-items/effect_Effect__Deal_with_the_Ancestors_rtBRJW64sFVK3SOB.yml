@@ -1,5 +1,5 @@
 folder: rpeZWhbwfSY5tPlc
-name: Deal with the Ancestors
+name: 'Effect: Deal with the Ancestors'
 type: effect
 effects: []
 system:
@@ -59,7 +59,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413655330
-  modifiedTime: 1728489107567
+  modifiedTime: 1728647956154
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!rtBRJW64sFVK3SOB'
 

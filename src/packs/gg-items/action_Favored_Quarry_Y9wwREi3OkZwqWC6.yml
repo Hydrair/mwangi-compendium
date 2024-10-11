@@ -43,6 +43,9 @@ system:
   frequency:
     max: 1
     per: day
+  selfEffect:
+    uuid: Compendium.mwangi-compendium.gg-items.Item.IgDlIW5YgB3pnWDg
+    name: 'Favored Quarry: Strikes'
 _id: Y9wwREi3OkZwqWC6
 img: modules/mwangi-compendium/img/favoredQuarry.png
 sort: 0
@@ -57,7 +60,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413650995
-  modifiedTime: 1728489133156
+  modifiedTime: 1728648113887
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!Y9wwREi3OkZwqWC6'
 

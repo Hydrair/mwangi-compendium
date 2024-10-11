@@ -1,5 +1,5 @@
 folder: 4JWkPNB7sX0EcNwm
-name: Reposition
+name: 'Effect: Reposition'
 type: effect
 effects: []
 system:
@@ -35,9 +35,9 @@ system:
   level:
     value: 1
   duration:
-    value: -1
-    unit: unlimited
-    expiry: null
+    value: 1
+    unit: rounds
+    expiry: turn-end
     sustained: false
   start:
     value: 0
@@ -61,7 +61,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413648224
-  modifiedTime: 1728489145568
+  modifiedTime: 1728648223502
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!bFlRX2l5eUsXgblb'
 

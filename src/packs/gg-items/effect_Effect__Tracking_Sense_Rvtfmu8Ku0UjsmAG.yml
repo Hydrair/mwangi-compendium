@@ -1,4 +1,4 @@
-name: Tracking Sense
+name: 'Effect: Tracking Sense'
 type: effect
 effects: []
 system:
@@ -67,7 +67,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413650995
-  modifiedTime: 1728488746714
+  modifiedTime: 1728648072904
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!Rvtfmu8Ku0UjsmAG'
 

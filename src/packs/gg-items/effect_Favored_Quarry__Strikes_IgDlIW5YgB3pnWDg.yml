@@ -16,6 +16,9 @@ system:
         - hunted-prey
       label: Favored Quarry
       type: item
+    - key: GrantItem
+      uuid: Compendium.mwangi-compendium.gg-items.Item.v3KTaf56C4tN6ACk
+      allowDuplicate: false
   slug: null
   _migration:
     version: 0.932
@@ -61,7 +64,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413650995
-  modifiedTime: 1728488659013
+  modifiedTime: 1728646693837
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!IgDlIW5YgB3pnWDg'
 

@@ -6,23 +6,7 @@ system:
   description:
     gm: ''
     value: >-
-      <p><span style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe
-      UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI
-      Symbol', sans-serif, 'Noto Color Emoji', Inter"><strong
-      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Activate</strong>
-      </span><span style="font-family:Pathfinder2eActions,
-      sans-serif">R</span><span style="font-family:system-ui, -apple-system,
-      'system-ui', 'Segoe UI', Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI
-      Emoji', 'Segoe UI Symbol', sans-serif, 'Noto Color Emoji', Inter">
-      (Mental)</span></p><p
-      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
-      0px;color:rgb(25, 24, 19);font-family:Roboto,
-      sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
-      style="font-family:system-ui, -apple-system, 'system-ui', 'Segoe UI',
-      Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
-      sans-serif, 'Noto Color Emoji', Inter"><strong
-      style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Frequency</strong>
-      Once per hour</span></p><p
+      <p
       style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
       0px;color:rgb(25, 24, 19);font-family:Roboto,
       sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
@@ -30,7 +14,7 @@ system:
       Roboto, 'Apple Color Emoji', Twemoji, 'Segoe UI Emoji', 'Segoe UI Symbol',
       sans-serif, 'Noto Color Emoji', Inter"><strong
       style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial">Trigger</strong>
-      You are missed by a melee or ranged attack.</span></p><p
+      You are missed by a melee or ranged attack.</span></p><hr /><p
       style="box-sizing:border-box;user-select:text;scrollbar-width:initial;scrollbar-color:initial;margin:0.5em
       0px;color:rgb(25, 24, 19);font-family:Roboto,
       sans-serif;font-size:14px;font-style:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-weight:400;letter-spacing:normal;orphans:2;text-indent:0px;text-transform:none;widows:2;word-spacing:0px;-webkit-text-stroke-width:0px;white-space:normal;text-decoration-thickness:initial;text-decoration-style:initial;text-decoration-color:initial;text-align:start"><span
@@ -62,12 +46,12 @@ system:
   actions:
     value: null
   deathNote: false
-  selfEffect:
-    uuid: Item.bFlRX2l5eUsXgblb
-    name: Reposition
   frequency:
     max: 1
     per: PT1H
+  selfEffect:
+    uuid: Compendium.mwangi-compendium.gg-items.Item.bFlRX2l5eUsXgblb
+    name: 'Effect: Reposition'
 _id: D5dvLvFYhJguTdDH
 img: modules/mwangi-compendium/img/reposition.png
 sort: 0
@@ -82,7 +66,7 @@ _stats:
   systemId: pf2e
   systemVersion: 6.4.1
   createdTime: 1728413648224
-  modifiedTime: 1728489157016
+  modifiedTime: 1728648165533
   lastModifiedBy: 6K5rT7hhNxLBEBA8
 _key: '!items!D5dvLvFYhJguTdDH'
 
